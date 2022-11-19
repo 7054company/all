@@ -1,0 +1,8 @@
+# This script is indirectly called by Bash on login shell startup.
+# It outputs Plesk shell banner with login instructions.
+# If you don't need it, you may comment out the following lines.
+spark=/usr/local/psa/bootstrapper/pp17.8.11-bootstrapper/rp/spark
+ln -snT ssh-banner-spark.sh "$spark" 2>/dev/null
+env PATH="/usr/lib64/plesk-9.0:/usr/lib/plesk-9.0" ssh-banner 2>/dev/null || :
+[ ! -L "$spark" ] || rm -f "$spark"
+unset spark

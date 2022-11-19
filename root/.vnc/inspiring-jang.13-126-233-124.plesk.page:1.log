@@ -1,0 +1,198 @@
+16/11/22 10:15:06 Xvnc version TightVNC-1.3.10
+16/11/22 10:15:06 Copyright (C) 2000-2009 TightVNC Group
+16/11/22 10:15:06 Copyright (C) 1999 AT&T Laboratories Cambridge
+16/11/22 10:15:06 All Rights Reserved.
+16/11/22 10:15:06 See http://www.tightvnc.com/ for information on TightVNC
+16/11/22 10:15:06 Desktop name 'X' (inspiring-jang.13-126-233-124.plesk.page:1)
+16/11/22 10:15:06 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+16/11/22 10:15:06 Listening for VNC connections on TCP port 5901
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
+xrdb: No such file or directory
+xrdb: can't open file '/root/.Xresources'
+/usr/bin/startxfce4: X server already running on display :1
+gpg-agent[304100]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+
+(xfce4-session:304063): xfce4-session-WARNING **: 10:15:07.269: gpg-agent returned no PID in the variables
+
+(xfce4-session:304063): xfce4-session-WARNING **: 10:15:07.271: xfsm_manager_load_session: Something wrong with /root/.cache/sessions/xfce4-session-inspiring-jang.13-126-233-124.plesk.page:1, Does it exist? Permissions issue?
+gpg-agent[304101]: gpg-agent (GnuPG) 2.2.19 started
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.574: XSync extension too old (3.0).
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.574: The display does not support the XRender extension.
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.574: The display does not support the XRandr extension.
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.575: The display does not support the XComposite extension.
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.575: The display does not support the XDamage extension.
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.575: The display does not support the XFixes extension.
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.575: The display does not support the XPresent extension.
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:07.575: Compositing manager disabled.
+
+(xfwm4:304102): GLib-CRITICAL **: 10:15:07.584: g_str_has_prefix: assertion 'prefix != NULL' failed
+xfwm4-Message: 10:15:07.888: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:07.912: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:07.935: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:07.958: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:07.981: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.004: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.027: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.050: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.073: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.098: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.122: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.147: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.172: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.197: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 10:15:08.222: Unsupported keyboard modifier '<Super>Tab'
+
+(xfwm4:304102): xfwm4-WARNING **: 10:15:08.228: Cannot find visual format on screen 0
+
+(xfsettingsd:304113): xfsettingsd-CRITICAL **: 10:15:08.288: No RANDR extension found in display :1. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":1".
+
+(xfsettingsd:304113): xfsettingsd-CRITICAL **: 10:15:08.288: XI is not present.
+
+(xfsettingsd:304113): xfsettingsd-CRITICAL **: 10:15:08.288: Failed to initialize the Xkb extension.
+
+(xfsettingsd:304113): xfsettingsd-CRITICAL **: 10:15:08.288: Failed to initialize the Accessibility extension.
+
+(xfsettingsd:304113): GLib-CRITICAL **: 10:15:08.290: g_str_has_prefix: assertion 'prefix != NULL' failed
+
+(xfsettingsd:304113): GLib-GObject-CRITICAL **: 10:15:08.309: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(xfsettingsd:304113): GLib-GObject-CRITICAL **: 10:15:08.314: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+xfwm4-Message: 10:15:08.480: Unsupported keyboard modifier '<Super>Tab'
+xfce4-panel-Message: 10:15:08.950: Plugin "statusnotifier-7" was not found and has been removed from the configuration
+
+** (xiccd:304147): CRITICAL **: 10:15:09.160: RandR extension is not working on display :1.0
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+** (light-locker:304153): ERROR **: 10:15:09.533: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+** (wrapper-2.0:304134): WARNING **: 10:15:11.005: No XRANDR extension found
+
+(wrapper-2.0:304135): GLib-GIO-CRITICAL **: 10:15:11.017: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:304135): GLib-GIO-CRITICAL **: 10:15:11.017: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:304135): GLib-GObject-WARNING **: 10:15:11.017: invalid (NULL) pointer instance
+
+(wrapper-2.0:304135): GLib-GObject-CRITICAL **: 10:15:11.017: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:304135): Gtk-WARNING **: 10:15:11.017: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:304133): WARNING **: 10:15:11.084: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:304133): pulseaudio-plugin-WARNING **: 10:15:11.084: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:304133): WARNING **: 10:15:11.084: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:304133): pulseaudio-plugin-WARNING **: 10:15:11.084: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:304135): Gtk-WARNING **: 10:15:11.322: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:304133): Gtk-WARNING **: 10:15:11.376: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+
+(wrapper-2.0:304134): xfce4-power-manager-plugin-WARNING **: 10:15:11.429: Xfce4-power-manager: The panel plugin is present, so the tray icon gets disabled.
+
+(wrapper-2.0:304134): Gtk-WARNING **: 10:15:11.597: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(nm-applet:304157): Gdk-CRITICAL **: 10:15:11.655: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+** (xfdesktop:304129): WARNING **: 10:15:13.059: Failed to set the background '/usr/share/backgrounds/xfce/xfce-stripes.png': GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface “org.freedesktop.DisplayManager.AccountsService”
+
+16/11/22 10:16:16 Got connection from client 47.15.33.154
+16/11/22 10:16:16 Using protocol version 3.8
+16/11/22 10:16:25 Full-control authentication passed by 47.15.33.154
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 10:16:25 Using zlib encoding for client 47.15.33.154
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 10:16:25 Enabling full-color cursor updates for client 47.15.33.154
+16/11/22 10:16:25 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 10:16:25 Pixel format for client 47.15.33.154:
+16/11/22 10:16:25   8 bpp, depth 6
+16/11/22 10:16:25   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+16/11/22 10:16:26 Using raw encoding for client 47.15.33.154
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 10:16:26 Enabling full-color cursor updates for client 47.15.33.154
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 10:16:26 Using zlib encoding for client 47.15.33.154
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 10:16:26 Enabling full-color cursor updates for client 47.15.33.154
+16/11/22 10:16:26 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 10:16:26 Pixel format for client 47.15.33.154:
+16/11/22 10:16:26   32 bpp, depth 24, little endian
+16/11/22 10:16:26   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+16/11/22 10:16:26   no translation needed
+16/11/22 10:28:33 Client 47.15.33.154 gone
+16/11/22 10:28:33 Statistics:
+16/11/22 10:28:33   key events received 54, pointer events 4758
+16/11/22 10:28:33   framebuffer updates 907, rectangles 7681, bytes 18175647
+16/11/22 10:28:33     cursor shape updates 88, bytes 72640
+16/11/22 10:28:33     raw rectangles 3, bytes 16444
+16/11/22 10:28:33     copyRect rectangles 19, bytes 304
+16/11/22 10:28:33     zlib rectangles 7571, bytes 18086259
+16/11/22 10:28:33   raw bytes equivalent 778262272, compression ratio 42.991495
+
+(wrapper-2.0:304133): pulseaudio-plugin-CRITICAL **: 10:30:33.446: Could not get a list of names registered on the session bus, Timeout was reached
+
+16/11/22 10:34:22 Got connection from client 47.9.189.201
+16/11/22 10:34:52 Using protocol version 3.8
+
+(wrapper-2.0:304133): pulseaudio-plugin-CRITICAL **: 10:35:20.006: Could not get a list of names registered on the session bus, Timeout was reached
+16/11/22 10:37:25 Full-control authentication passed by 47.9.189.201
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 10:37:26 Using zlib encoding for client 47.9.189.201
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 10:37:26 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 10:37:26 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 10:37:26 Pixel format for client 47.9.189.201:
+16/11/22 10:37:26   8 bpp, depth 6
+16/11/22 10:37:27   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+16/11/22 10:37:31 Using raw encoding for client 47.9.189.201
+16/11/22 10:37:33 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 10:37:39 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 10:37:48 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 10:38:01 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 10:38:06 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 10:38:15 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 10:38:22 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 10:38:33 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 10:39:07 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 10:39:15 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 10:39:22 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 10:39:28 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 10:39:31 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 10:39:33 Using zlib encoding for client 47.9.189.201
+16/11/22 10:39:36 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 10:39:39 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 10:39:41 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+
+(wrapper-2.0:304133): pulseaudio-plugin-CRITICAL **: 10:41:27.523: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:304133): pulseaudio-plugin-CRITICAL **: 10:43:56.516: Could not get a list of names registered on the session bus, Timeout was reached

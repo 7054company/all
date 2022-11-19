@@ -1,0 +1,10 @@
+{
+  "search": {
+    "suggest_enabled": false
+  },
+  "devtools":{
+    "preferences":{
+      "currentDockState":"\"bottom\""
+    }
+  }
+}

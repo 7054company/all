@@ -1,0 +1,283 @@
+16/11/22 11:00:53 Xvnc version TightVNC-1.3.10
+16/11/22 11:00:53 Copyright (C) 2000-2009 TightVNC Group
+16/11/22 11:00:53 Copyright (C) 1999 AT&T Laboratories Cambridge
+16/11/22 11:00:53 All Rights Reserved.
+16/11/22 11:00:53 See http://www.tightvnc.com/ for information on TightVNC
+16/11/22 11:00:53 Desktop name 'X' (bold-hugle.13-233-123-189.plesk.page:2)
+16/11/22 11:00:53 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+16/11/22 11:00:53 Listening for VNC connections on TCP port 5902
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
+xrdb: No such file or directory
+xrdb: can't open file '/root/.Xresources'
+/usr/bin/startxfce4: X server already running on display :2
+gpg-agent[6704]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:6667): xfce4-session-WARNING **: 11:00:54.919: gpg-agent returned no PID in the variables
+
+(xfce4-session:6667): xfce4-session-WARNING **: 11:00:54.921: xfsm_manager_load_session: Something wrong with /root/.cache/sessions/xfce4-session-bold-hugle.13-233-123-189.plesk.page:2, Does it exist? Permissions issue?
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.990: XSync extension too old (3.0).
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.990: The display does not support the XRender extension.
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.990: The display does not support the XRandr extension.
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.990: The display does not support the XComposite extension.
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.991: The display does not support the XDamage extension.
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.991: The display does not support the XFixes extension.
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.991: The display does not support the XPresent extension.
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:54.991: Compositing manager disabled.
+xfwm4-Message: 11:00:55.018: Unsupported keyboard modifier '<Super>Tab'
+
+(xfwm4:6706): xfwm4-WARNING **: 11:00:55.024: Cannot find visual format on screen 0
+
+(xfsettingsd:6717): xfsettingsd-CRITICAL **: 11:00:55.101: No RANDR extension found in display :2. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":2".
+
+(xfsettingsd:6717): xfsettingsd-CRITICAL **: 11:00:55.104: XI is not present.
+
+(xfsettingsd:6717): xfsettingsd-CRITICAL **: 11:00:55.105: Failed to initialize the Xkb extension.
+
+(xfsettingsd:6717): xfsettingsd-CRITICAL **: 11:00:55.108: Failed to initialize the Accessibility extension.
+xfwm4-Message: 11:00:55.263: Unsupported keyboard modifier '<Super>Tab'
+
+** (wrapper-2.0:6734): WARNING **: 11:00:56.115: No XRANDR extension found
+
+(wrapper-2.0:6735): GLib-GIO-CRITICAL **: 11:00:56.134: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:6735): GLib-GIO-CRITICAL **: 11:00:56.134: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:6735): GLib-GObject-WARNING **: 11:00:56.134: invalid (NULL) pointer instance
+
+(wrapper-2.0:6735): GLib-GObject-CRITICAL **: 11:00:56.134: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:6735): Gtk-WARNING **: 11:00:56.134: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:6731): WARNING **: 11:00:56.141: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:6731): pulseaudio-plugin-WARNING **: 11:00:56.141: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:6731): WARNING **: 11:00:56.141: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:6731): pulseaudio-plugin-WARNING **: 11:00:56.142: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:6735): Gtk-WARNING **: 11:00:56.238: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+(wrapper-2.0:6734): Gtk-WARNING **: 11:00:56.353: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+** (xiccd:6760): CRITICAL **: 11:00:56.436: RandR extension is not working on display :2.0
+
+(wrapper-2.0:6731): Gtk-WARNING **: 11:00:56.452: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+** (light-locker:6762): ERROR **: 11:00:56.841: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(nm-applet:6765): nm-applet-WARNING **: 11:00:57.515: An agent with this ID is already registered for this user.
+
+(nm-applet:6765): Gdk-CRITICAL **: 11:00:57.866: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+
+16/11/22 11:03:22 Got connection from client 47.9.189.201
+16/11/22 11:03:22 Using protocol version 3.8
+16/11/22 11:03:30 Full-control authentication passed by 47.9.189.201
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:03:31 Using zlib encoding for client 47.9.189.201
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:03:31 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:03:31 Pixel format for client 47.9.189.201:
+16/11/22 11:03:31   8 bpp, depth 6
+16/11/22 11:03:31   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+16/11/22 11:03:31 Using raw encoding for client 47.9.189.201
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:03:31 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:03:31 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:03:40 Using zlib encoding for client 47.9.189.201
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:03:40 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:03:40 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+[8083:8083:1116/110754.525253:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[8270:8270:1116/110848.843023:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+16/11/22 11:09:18 Pixel format for client 47.9.189.201:
+16/11/22 11:09:18   32 bpp, depth 24, little endian
+16/11/22 11:09:18   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+16/11/22 11:09:18   no translation needed
+[2022-11-16T11:09:31Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-11-16T11:09:31Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-11-16T11:09:31Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-11-16T11:09:31Z ERROR viaduct::backend::ffi] Missing HTTP status
+[2022-11-16T11:09:31Z ERROR viaduct::backend::ffi] Missing HTTP status
+[8498:8498:1116/110942.518786:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+Deleting temporary files - please wait ... done.
+[8518:8518:1116/111001.468652:ERROR:zygote_host_impl_linux.cc(90)] Running as root without --no-sandbox is not supported. See https://crbug.com/638180.
+[8643:8643:1116/111305.763780:ERROR:angle_platform_impl.cc(43)] Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[8643:8643:1116/111305.763986:ERROR:gl_display.cc(508)] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[8643:8643:1116/111305.766033:ERROR:gl_display.cc(920)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[8643:8643:1116/111305.768030:ERROR:angle_platform_impl.cc(43)] Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[8643:8643:1116/111305.768092:ERROR:gl_display.cc(508)] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[8643:8643:1116/111305.768163:ERROR:gl_display.cc(920)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[8643:8643:1116/111305.768266:ERROR:gl_ozone_egl.cc(23)] GLDisplayEGL::Initialize failed.
+[8643:8643:1116/111305.780724:ERROR:viz_main_impl.cc(186)] Exiting GPU process due to errors during initialization
+[8758:8758:1116/111407.292639:ERROR:angle_platform_impl.cc(43)] Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[8758:8758:1116/111407.293269:ERROR:gl_display.cc(508)] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[8758:8758:1116/111407.293337:ERROR:gl_display.cc(920)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[8758:8758:1116/111407.294303:ERROR:angle_platform_impl.cc(43)] Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[8758:8758:1116/111407.294403:ERROR:gl_display.cc(508)] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[8758:8758:1116/111407.294459:ERROR:gl_display.cc(920)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[8758:8758:1116/111407.294508:ERROR:gl_ozone_egl.cc(23)] GLDisplayEGL::Initialize failed.
+[8758:8758:1116/111407.309489:ERROR:viz_main_impl.cc(186)] Exiting GPU process due to errors during initialization
+[8609:8609:1116/111407.324359:ERROR:network_service_instance_impl.cc(513)] Network service crashed, restarting service.
+[8775:8775:1116/111407.505972:ERROR:angle_platform_impl.cc(43)] Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[8775:8775:1116/111407.506130:ERROR:gl_display.cc(508)] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[8775:8775:1116/111407.506209:ERROR:gl_display.cc(920)] eglInitialize OpenGL failed with error EGL_NOT_INITIALIZED, trying next display type
+[8775:8775:1116/111407.507334:ERROR:angle_platform_impl.cc(43)] Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+ERR: Display.cpp:1004 (initialize): ANGLE Display::initialize error 12289: GLX is not present.
+[8775:8775:1116/111407.507396:ERROR:gl_display.cc(508)] EGL Driver message (Critical) eglInitialize: GLX is not present.
+[8775:8775:1116/111407.507456:ERROR:gl_display.cc(920)] eglInitialize OpenGLES failed with error EGL_NOT_INITIALIZED
+[8775:8775:1116/111407.507510:ERROR:gl_ozone_egl.cc(23)] GLDisplayEGL::Initialize failed.
+[8775:8775:1116/111407.531869:ERROR:viz_main_impl.cc(186)] Exiting GPU process due to errors during initialization
+[8805:8805:1116/111407.727699:ERROR:gpu_memory_buffer_support_x11.cc(44)] dri3 extension not supported.
+16/11/22 11:31:13 Client 47.9.189.201 gone
+16/11/22 11:31:13 Statistics:
+16/11/22 11:31:13   key events received 0, pointer events 8039
+16/11/22 11:31:13   framebuffer updates 1375, rectangles 10435, bytes 16928807
+16/11/22 11:31:13     cursor shape updates 120, bytes 69692
+16/11/22 11:31:13     raw rectangles 5, bytes 16508
+16/11/22 11:31:13     zlib rectangles 10310, bytes 16842607
+16/11/22 11:31:13   raw bytes equivalent 572096359, compression ratio 33.933950
+
+16/11/22 11:35:16 Got connection from client 47.9.189.201
+16/11/22 11:35:16 Using protocol version 3.8
+16/11/22 11:35:37 Full-control authentication passed by 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:35:38 Using zlib encoding for client 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:35:38 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:35:38 Pixel format for client 47.9.189.201:
+16/11/22 11:35:38   8 bpp, depth 6
+16/11/22 11:35:38   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+16/11/22 11:35:38 Using raw encoding for client 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:35:38 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:35:38 Using zlib encoding for client 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:35:38 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:35:38 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:35:38 Pixel format for client 47.9.189.201:
+16/11/22 11:35:38   32 bpp, depth 24, little endian
+16/11/22 11:35:38   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+16/11/22 11:35:38   no translation needed
+
+16/11/22 11:46:12 Got connection from client 47.9.189.201
+16/11/22 11:46:12   (other clients 47.9.189.201)
+16/11/22 11:46:12 Using protocol version 3.8
+16/11/22 11:46:12 Full-control authentication passed by 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:46:13 Using zlib encoding for client 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:46:13 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:46:13 Pixel format for client 47.9.189.201:
+16/11/22 11:46:13   8 bpp, depth 6
+16/11/22 11:46:13   true colour: max r 3 g 3 b 3, shift r 4 g 2 b 0
+16/11/22 11:46:13 Using raw encoding for client 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:46:13 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 24
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 16
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 22
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 21
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding 15
+16/11/22 11:46:13 Using zlib encoding for client 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding -314
+16/11/22 11:46:13 Enabling full-color cursor updates for client 47.9.189.201
+16/11/22 11:46:13 rfbProcessClientNormalMessage: ignoring unknown encoding -223
+16/11/22 11:46:13 Pixel format for client 47.9.189.201:
+16/11/22 11:46:13   32 bpp, depth 24, little endian
+16/11/22 11:46:13   true colour: max r 255 g 255 b 255, shift r 16 g 8 b 0
+16/11/22 11:46:13   no translation needed
+16/11/22 11:48:07 Client 47.9.189.201 gone
+16/11/22 11:48:07 Statistics:
+16/11/22 11:48:07   key events received 0, pointer events 768
+16/11/22 11:48:07   framebuffer updates 87, rectangles 498, bytes 1077586
+16/11/22 11:48:07     cursor shape updates 25, bytes 16780
+16/11/22 11:48:07     raw rectangles 1, bytes 16396
+16/11/22 11:48:07     zlib rectangles 472, bytes 1044410
+16/11/22 11:48:07   raw bytes equivalent 47085780, compression ratio 44.386796
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:05:09.817: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:06:01.131: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:07:11.380: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:07:59.318: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:08:50.919: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:09:58.983: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:11:51.158: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:14:36.310: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:15:16.489: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:16:58.547: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:17:52.275: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:19:20.794: Could not get a list of names registered on the session bus, Timeout was reached
+
+(wrapper-2.0:6731): pulseaudio-plugin-CRITICAL **: 12:22:07.780: Could not get a list of names registered on the session bus, Timeout was reached

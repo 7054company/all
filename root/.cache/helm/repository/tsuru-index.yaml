@@ -1,0 +1,3269 @@
+apiVersion: v1
+entries:
+  acl-operator:
+  - apiVersion: v2
+    created: "2022-11-10T21:17:10.638956782Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: a3af36381f55cc27919e4884f604e4de5a2793bc478431230238de22a692aa8d
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.6/acl-operator-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    created: "2022-11-10T13:56:21.655990371Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: eeddf5de656b1bd67388ae9c70c578a0dda2a32ce88ba7d5b9c60c5bb2af3e2a
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.5/acl-operator-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    created: "2022-11-09T17:20:32.476945571Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: 7068bc3b394ce1dbfab150e15c0e4e4a2d4a153c0fd450211701f805c4a90b80
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.4/acl-operator-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    created: "2022-10-27T16:27:30.310589834Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: 1b99fd75bedc0593009f0673486b1a7996763d34a3074fb58c42527017117757
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.3/acl-operator-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    created: "2022-10-25T20:08:06.434633138Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: d67c47c874cdcfe9f352f5401387bd8ef7f0f55e65094107da830fef2dacc008
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.2/acl-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2022-10-25T16:42:59.684678229Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: 8d9fd3594951ce243afdd2453bcd22865f6299f486a9321ddaffdf4939977d8d
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.1/acl-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2022-10-25T16:29:28.543187375Z"
+    description: Control network access in high abstractions by Tsuru Applications
+    digest: 6a884c999eb0f23187c440055496fc01d5b917a1baa6fbb7a3a733a3700882fb
+    name: acl-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/acl-operator-0.1.0/acl-operator-0.1.0.tgz
+    version: 0.1.0
+  certmanager-certificate:
+  - apiVersion: v2
+    created: "2021-07-26T12:08:49.95510107Z"
+    description: Set up a cert-manager certificate using helm
+    digest: 51b40f0ec392252358d41ce7be0522566041ffc3177b0501317b8076d650747b
+    name: certmanager-certificate
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/certmanager-certificate-0.1.0/certmanager-certificate-0.1.0.tgz
+    version: 0.1.0
+  certmanager-cluster-issuer:
+  - apiVersion: v2
+    created: "2021-08-19T21:06:25.550300436Z"
+    description: Set up a cluster issuer using helm
+    digest: 7176d64c02a95e8862a6a9dfaf8e0c6fefe24b824015b99e0935d0e073586af7
+    name: certmanager-cluster-issuer
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/certmanager-cluster-issuer-0.1.1/certmanager-cluster-issuer-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2021-07-12T12:26:12.496661527Z"
+    description: Set up a cluster issuer using helm
+    digest: 3195572586bc4d69ab908e534599e4187f3b4c23cf5ccfddb7d4139818590110
+    name: certmanager-cluster-issuer
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/certmanager-cluster-issuer-0.1.0/certmanager-cluster-issuer-0.1.0.tgz
+    version: 0.1.0
+  conntrack-exporter:
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2022-06-03T17:39:08.330893749Z"
+    description: Prometheus Conntrack Exporter
+    digest: 69448ce9049d13631ef8961fab7e58f083fadca04fd891745a95dedeb8dbf4ea
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.8/conntrack-exporter-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-03-22T14:31:15.119360766Z"
+    description: Prometheus Conntrack Exporter
+    digest: 3cdf6a0e766ff63c3db5a7e2905ac4abdbeb5958cb9d7832a963fb6b8a301b29
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.7/conntrack-exporter-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-03-19T17:57:42.125520227Z"
+    description: Prometheus Conntrack Exporter
+    digest: 1a2315e8fde35d0ab86f0dd7f48646d9e559ed73b66b152cad6fc8d6005e1674
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.6/conntrack-exporter-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-03-19T17:29:17.197226967Z"
+    description: Prometheus Conntrack Exporter
+    digest: 978545bcfc0893a1d933f983d59a03aa70d8d0c20b363c0c19a6b177669e4946
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.5/conntrack-exporter-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-03-19T15:05:50.485150696Z"
+    description: Prometheus Conntrack Exporter
+    digest: 3f2075001126a806a5116218cf3d8c89f75d6513de424c1abf76221dffb7a93f
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.4/conntrack-exporter-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-03-19T14:33:55.235096736Z"
+    description: Prometheus Conntrack Exporter
+    digest: 8749be1f351af84051d43adc181e47afa2a8117584e662369840839530c7c30d
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.3/conntrack-exporter-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: 0.6.0
+    created: "2021-03-18T21:41:10.608476703Z"
+    description: Prometheus Conntrack Exporter
+    digest: ab72155254846307317cc45488ecaf4a1084e12206b22cedf64eb1980dab1b65
+    name: conntrack-exporter
+    urls:
+    - https://github.com/tsuru/charts/releases/download/conntrack-exporter-0.1.2/conntrack-exporter-0.1.2.tgz
+    version: 0.1.2
+  gcp-state-metrics:
+  - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2021-07-12T20:30:48.735553122Z"
+    description: A Helm chart for Kubernetes
+    digest: a446066b444b4e490970252a6471a74e12ca37279c884a6d4a29b9ab2c4434cd
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.9/gcp-state-metrics-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 0.0.4
+    created: "2021-07-12T18:38:20.369616863Z"
+    description: A Helm chart for Kubernetes
+    digest: f598051d43f080e42fbabc5c7f6209ee1286773b574f710cc3ef76e45950413e
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.8/gcp-state-metrics-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 0.0.3
+    created: "2021-07-12T16:29:38.571780096Z"
+    description: A Helm chart for Kubernetes
+    digest: 8b553f5b4afcd441c1c659edea5e5db4a8802b9bc13d2c5eee5be90355da3518
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.7/gcp-state-metrics-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2021-07-12T14:52:24.229912266Z"
+    description: A Helm chart for Kubernetes
+    digest: b9ba658c975de232ba085dc7365471367a266c8fc58aa726b7664e9191a8f025
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.6/gcp-state-metrics-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.0.2
+    created: "2021-07-12T14:31:33.017712908Z"
+    description: A Helm chart for Kubernetes
+    digest: 0fba18937d31b89207e9bffd5ccb4ad44a36ad8199c62b8d5a630e67b7a68814
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.5/gcp-state-metrics-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2021-07-09T19:46:52.142181332Z"
+    description: A Helm chart for Kubernetes
+    digest: 8ddf50e183749d58d073941479366e2e3811725695096b8bf296817857b6ef48
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.4/gcp-state-metrics-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-07-08T21:05:10.315916502Z"
+    description: A Helm chart for Kubernetes
+    digest: cd0f568c62dfb2a114c9e944c60280dda1e4a582fce8ab4a4d1d9d6089bd2cd5
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.3/gcp-state-metrics-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2021-07-08T19:46:59.138989806Z"
+    description: A Helm chart for Kubernetes
+    digest: 48cb778fdf2c1916238409b51ae97af8a5486d58e35cbdff816786ea82a8061a
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.2/gcp-state-metrics-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2021-07-07T19:30:31.460083777Z"
+    description: A Helm chart for Kubernetes
+    digest: 0929eac34c6ec1913c144ef411159f16bf5c9dbad797200a7db98f79088360c2
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.1/gcp-state-metrics-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.0.0
+    created: "2021-07-07T18:26:41.92723995Z"
+    description: A Helm chart for Kubernetes
+    digest: 9043e5f7db817f452173f0cb8da6777418abf6f2c18f3689f39e07d0fe12eb11
+    name: gcp-state-metrics
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gcp-state-metrics-0.1.0/gcp-state-metrics-0.1.0.tgz
+    version: 0.1.0
+  gke-ingress-config:
+  - apiVersion: v1
+    created: "2021-06-09T21:02:18.494850386Z"
+    description: A simple chart to expose BackendConfig and FrontendConfig objects
+      used by GKE for ingress customization.
+    digest: a7326abd2d0158dfc39e49c1f6a45488242677c366a2b74c2ee6d299c1065a34
+    name: gke-ingress-config
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gke-ingress-config-0.2.0/gke-ingress-config-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    created: "2021-06-09T20:50:21.69714534Z"
+    description: A simple chart to expose BackendConfig and FrontendConfig objects
+      used by GKE for ingress customization.
+    digest: 53c50d02560376ee8982a5560b060e2667915e27de4eca19a2a89375f7599c02
+    name: gke-ingress-config
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gke-ingress-config-0.1.1/gke-ingress-config-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 0.1.0
+    created: "2021-06-09T20:34:28.304887849Z"
+    description: A simple chart to expose BackendConfig and FrontendConfig objects
+      used by GKE for ingress customization.
+    digest: e3338278d528095bb3d8007466237586ab2baeff46da6083cab65268c7a4bfa7
+    name: gke-ingress-config
+    urls:
+    - https://github.com/tsuru/charts/releases/download/gke-ingress-config-0.1.0/gke-ingress-config-0.1.0.tgz
+    version: 0.1.0
+  google-prometheus-engine-frontend:
+  - apiVersion: v2
+    created: "2021-12-14T14:57:59.892734889Z"
+    description: Install Google Prometheus Engine Frontend
+    digest: 2a1ed9b1b4655990ba033769962da04c587fa160d65448b8ba22413c15f8bae0
+    name: google-prometheus-engine-frontend
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/google-prometheus-engine-frontend-0.1.2/google-prometheus-engine-frontend-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2021-12-14T13:37:00.86379718Z"
+    description: Install Google Prometheus Engine Frontend
+    digest: 2938fe8425e14d69c416d10ef45ff7eb69056dda1337167723f0afb1efc235e6
+    name: google-prometheus-engine-frontend
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/google-prometheus-engine-frontend-0.1.1/google-prometheus-engine-frontend-0.1.1.tgz
+    version: 0.1.1
+  ingress-merge:
+  - apiVersion: v1
+    created: "2022-05-24T20:56:41.092983232Z"
+    description: Merge Ingress Controller combines multiple ingress resorces into
+      a new one.
+    digest: 56ea8f94f9f66cae3536ae0f548fffa823774a4927ae5b440abb4e7125da7bd7
+    home: https://github.com/jakubkulhan/ingress-merge
+    keywords:
+    - ingress
+    maintainers:
+    - email: jakub.kulhan@gmail.com
+      name: Jakub Kulhan
+    name: ingress-merge
+    urls:
+    - https://github.com/tsuru/charts/releases/download/ingress-merge-0.1-alpha4/ingress-merge-0.1-alpha4.tgz
+    version: 0.1-alpha4
+  - apiVersion: v1
+    created: "2021-09-03T17:21:11.981258984Z"
+    description: Merge Ingress Controller combines multiple ingress resorces into
+      a new one.
+    digest: fd29e2697812a6994ecc87cd33956f1b55f9e4e6925a363b9fec781dfa73a9b5
+    home: https://github.com/jakubkulhan/ingress-merge
+    keywords:
+    - ingress
+    maintainers:
+    - email: jakub.kulhan@gmail.com
+      name: Jakub Kulhan
+    name: ingress-merge
+    urls:
+    - https://github.com/tsuru/charts/releases/download/ingress-merge-0.1-alpha3/ingress-merge-0.1-alpha3.tgz
+    version: 0.1-alpha3
+  - apiVersion: v1
+    created: "2021-09-03T17:04:42.41928309Z"
+    description: Merge Ingress Controller combines multiple ingress resorces into
+      a new one.
+    digest: cbc8254dc964e1ea905353f8396813a573554c043ef61551407753cfbc0bbbd8
+    home: https://github.com/jakubkulhan/ingress-merge
+    keywords:
+    - ingress
+    maintainers:
+    - email: jakub.kulhan@gmail.com
+      name: Jakub Kulhan
+    name: ingress-merge
+    urls:
+    - https://github.com/tsuru/charts/releases/download/ingress-merge-0.1-alpha2/ingress-merge-0.1-alpha2.tgz
+    version: 0.1-alpha2
+  - apiVersion: v1
+    created: "2021-05-25T12:17:36.717235168Z"
+    description: Merge Ingress Controller combines multiple ingress resorces into
+      a new one.
+    digest: 4427a2521b5c13240423c61cdc077b2decfe3965ba8b93d5a07e44d056941d6c
+    home: https://github.com/jakubkulhan/ingress-merge
+    keywords:
+    - ingress
+    maintainers:
+    - email: jakub.kulhan@gmail.com
+      name: Jakub Kulhan
+    name: ingress-merge
+    urls:
+    - https://github.com/tsuru/charts/releases/download/ingress-merge-0.1-alpha1/ingress-merge-0.1-alpha1.tgz
+    version: 0.1-alpha1
+  ip-masq-agent:
+  - apiVersion: v2
+    created: "2022-06-18T08:36:21.800120718Z"
+    description: A Helm chart for Kubernetes IP Masq Agent
+    digest: 18cd18299177208482f23c276b596add8bf997d1bbfd0763e0a359e049ffaf4c
+    name: ip-masq-agent
+    urls:
+    - https://github.com/tsuru/charts/releases/download/ip-masq-agent-0.2.0/ip-masq-agent-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2021-09-15T13:15:42.954459522Z"
+    description: A Helm chart for Kubernetes IP Masq Agent
+    digest: b1563b0e8648a96925e993b1a49016f5ab2e632d14356f0e7bf2e84df19eba5a
+    name: ip-masq-agent
+    urls:
+    - https://github.com/tsuru/charts/releases/download/ip-masq-agent-0.1.0/ip-masq-agent-0.1.0.tgz
+    version: 0.1.0
+  kubernetes-router:
+  - apiVersion: v2
+    appVersion: 0.20.0
+    created: "2022-05-17T13:44:39.618460219Z"
+    description: A Helm chart for Kubernetes
+    digest: 5081a35fcf42ad3642f79eeedb2c1a1fadcae730acd20536f6ad65f9c0f7259b
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.15/kubernetes-router-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: 0.20.0
+    created: "2022-05-13T19:56:28.754653533Z"
+    description: A Helm chart for Kubernetes
+    digest: ab644268066aa2796acd8329c0c8d6bd9c1b6a3ae7e0a890c66502b6e6a9c4dc
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.14/kubernetes-router-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 0.18.1
+    created: "2022-02-14T12:32:59.644856603Z"
+    description: A Helm chart for Kubernetes
+    digest: 75e296f780ce66679ec82db2ab345289d37414000c3e17bbe4e96f97a0b68585
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.13/kubernetes-router-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 0.18.1
+    created: "2021-11-22T21:07:23.758287902Z"
+    description: A Helm chart for Kubernetes
+    digest: 0dfd20bbfc71eb2306720f65a92f3be96bf5abf988909f34fa537554a9af9801
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.12/kubernetes-router-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: 0.16.0-rc2
+    created: "2021-11-22T18:33:51.40586246Z"
+    description: A Helm chart for Kubernetes
+    digest: a74c7834cc6227e52a2917244ce0239d8a4f74eb94565a7d5e2bafbe794bcf20
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.11/kubernetes-router-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 0.16.0-rc2
+    created: "2021-08-03T14:14:03.514655915Z"
+    description: A Helm chart for Kubernetes
+    digest: 2a3b3b59972946316973d630c9114abfecc7e977f0a77b5a1c35466be82ac0e9
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.8/kubernetes-router-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 0.16.0-rc2
+    created: "2021-08-02T17:53:10.835193727Z"
+    description: A Helm chart for Kubernetes
+    digest: 6c5886e789d44e4c569006ffd7e8124137e68e761a0046cb61388fa7c15e6286
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.7/kubernetes-router-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 0.16.0-rc2
+    created: "2021-08-02T16:59:26.645204609Z"
+    description: A Helm chart for Kubernetes
+    digest: dca31ce5f73340eebb2f5567cdb265f3d456d02dad6cfd4a5d0405c41ac6830b
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.6/kubernetes-router-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.16.0-rc2
+    created: "2021-06-02T13:03:27.271509772Z"
+    description: A Helm chart for Kubernetes
+    digest: 8283b87a6c870380e890dbe9fca3bbfe15bfb20def291ae677df59fe2a6ed4ea
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.5/kubernetes-router-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2021-05-10T20:49:33.778684771Z"
+    description: A Helm chart for Kubernetes
+    digest: ae7c2b399b71032d21a942664724e2dc24d584977fb27120c22ebe3e2bc5fec7
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.4/kubernetes-router-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2021-04-29T19:50:26.502110865Z"
+    description: A Helm chart for Kubernetes
+    digest: ee89f3090bf095a610884f5d93f3a961229ef07ddce964599c292cf59d1aebaa
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.2/kubernetes-router-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.14.0
+    created: "2021-04-29T14:41:39.590273443Z"
+    description: A Helm chart for Kubernetes
+    digest: e500babcd49057c30b51bc528e4d8fdfced49ea883c32a417fd54c45717782db
+    name: kubernetes-router
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/kubernetes-router-0.1.1/kubernetes-router-0.1.1.tgz
+    version: 0.1.1
+  networkapi-ingress-controller:
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-09-13T19:43:36.589117629Z"
+    description: A Helm chart for Kubernetes
+    digest: 38a2f3e5dbcd58d9e062ce603a6c68d022482356244255889d06bc9c0c5333f9
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.2.5/networkapi-ingress-controller-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-07-26T18:33:45.333657385Z"
+    description: A Helm chart for Kubernetes
+    digest: a113de6d4820c4dbf05a6282c47e0c218840861925efad31c9fa7c2e0ae2b887
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.2.4/networkapi-ingress-controller-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-07-26T16:11:28.778763256Z"
+    description: A Helm chart for Kubernetes
+    digest: eee2849686fca2a73ba3dbd35f0db2b342db704754f9e673167f8ab8f47419b6
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.2.3/networkapi-ingress-controller-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-07-26T15:12:16.511624398Z"
+    description: A Helm chart for Kubernetes
+    digest: c8f88627bc14b504ad84b25892ad8fc702b6d4cfef2072d35735aab1ec74298d
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.2.2/networkapi-ingress-controller-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-07-26T14:13:19.925235854Z"
+    description: A Helm chart for Kubernetes
+    digest: a527ac96f6ebf4db256a10fecdb174236f7fed5387ce1b55f487b0336537b84c
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.2.1/networkapi-ingress-controller-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-07-26T13:47:52.360382664Z"
+    description: A Helm chart for Kubernetes
+    digest: 1b516a93161bdd9f2d7fd308e20152ce8a4fef1bf6c2069d5a7d87cfef02f3c3
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.2.0/networkapi-ingress-controller-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: edge
+    created: "2021-07-23T18:33:09.237284547Z"
+    description: A Helm chart for Kubernetes
+    digest: 2976d5d9c88b3385bafd12cae111d116199b1ea72eb0e95bb0c486642827cb23
+    name: networkapi-ingress-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/networkapi-ingress-controller-0.1.0/networkapi-ingress-controller-0.1.0.tgz
+    version: 0.1.0
+  nginx-operator:
+  - apiVersion: v2
+    appVersion: 0.13.1
+    created: "2022-07-25T20:37:48.761068423Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 7efdde84f81635564ca51b2da160e3cd319f5da67fe34398058b8b703e62bf51
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.5.0/nginx-operator-1.5.0.tgz
+    version: 1.5.0
+  - apiVersion: v2
+    appVersion: 0.13.0
+    created: "2022-07-20T17:30:10.640575416Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 70cbac4e14641958673a8549c88246672c36fdce3ca8c03e914409a7658237c0
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.10/nginx-operator-1.4.10.tgz
+    version: 1.4.10
+  - apiVersion: v2
+    appVersion: 0.12.1
+    created: "2022-07-01T18:53:52.790616395Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 2fdc2814244f66e58c89c55b72a298018e13790fed3ef92d618e55e91ae380df
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.9/nginx-operator-1.4.9.tgz
+    version: 1.4.9
+  - apiVersion: v2
+    appVersion: 0.10.0
+    created: "2022-03-22T22:16:26.491229643Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: baf53178e371a73fa718254a3071a688097997388a7e1c808211a1ced008851e
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.8/nginx-operator-1.4.8.tgz
+    version: 1.4.8
+  - apiVersion: v2
+    appVersion: 0.9.1
+    created: "2022-02-17T23:37:43.509658255Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 7b131b3a401a5f31b788a87a76e24b35ceb930394599311d4cc9729335842f82
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.7/nginx-operator-1.4.7.tgz
+    version: 1.4.7
+  - apiVersion: v2
+    appVersion: 0.9.0
+    created: "2022-01-27T19:10:38.688970882Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 495dc7e9960d5be6cb8cfcb7e62e148233eaebc712c38cae6509446b3ddfb6b3
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.5/nginx-operator-1.4.5.tgz
+    version: 1.4.5
+  - apiVersion: v2
+    appVersion: 0.8.2
+    created: "2021-12-15T21:09:00.28818231Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: d8ec7e601640c8e8d7ba5380c28e65b4a9ba5e22b7b9c675e2a7b2613cd2cc16
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.4/nginx-operator-1.4.4.tgz
+    version: 1.4.4
+  - apiVersion: v2
+    appVersion: 0.8.1
+    created: "2021-10-19T20:45:00.864750148Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 3699ac14a92061fab76cb6cde14118ae8a02e94eb4622f25532b194e20bf9e4e
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.2/nginx-operator-1.4.2.tgz
+    version: 1.4.2
+  - apiVersion: v2
+    appVersion: 0.8.1
+    created: "2021-10-19T16:52:12.3605392Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: d200371562179f083ade68e855cba6d445ae75ff1152b079164d9726982516b3
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.4.1/nginx-operator-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2021-09-08T20:45:19.719102232Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 7810cd12c799e29b1f594da72f205a2e784571a0c8ed19f4e50da28d1876264d
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.3.0/nginx-operator-1.3.0.tgz
+    version: 1.3.0
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2021-09-06T21:47:58.907322243Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 95575db054c8e39737060c0544d151a352432391703d4221e927fa19daa46b5e
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.2.0/nginx-operator-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2021-09-06T19:52:07.30985369Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 3e780df9ed830b3da255b3ba7ab00fc39ae3d824dc9b499b8fd9b1988f8a7b67
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.1.0/nginx-operator-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 0.8.0
+    created: "2021-09-06T18:45:05.312470816Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 12589bdb09d8d85785e464dfe389a13df4823f7e232c7731f4c9f6bbcce33e81
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-1.0.0/nginx-operator-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.6.5
+    created: "2021-08-24T17:53:55.289395682Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 296db45db3699a6eda75fa66ccc16e7550a837aaff699198be3588267c513723
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-0.1.2/nginx-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.6.5
+    created: "2021-08-24T14:44:41.944961884Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: b1fd7555328f47cb496f90e6e40b47a01cdc3ecf366ef91cf9228ce634183e95
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-0.1.1/nginx-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.6.3
+    created: "2021-05-04T12:59:13.922493911Z"
+    description: Nginx operator follows the Kubernetes Operator pattern to provide
+      a way to deploy and manage nginx instances inside a cluster.
+    digest: 0fe800036a6f30dbca32646bf8e4eb4a326dfe0a899e4c59a3a8aa66028efdfa
+    name: nginx-operator
+    sources:
+    - https://github.com/tsuru/nginx-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/nginx-operator-0.1.0/nginx-operator-0.1.0.tgz
+    version: 0.1.0
+  rpaas-api:
+  - apiVersion: v2
+    created: "2022-08-17T20:10:10.286684292Z"
+    description: The API of Tsuru/RPaaS
+    digest: 5d7a7830014b2c92d557c710e2314a7748ad4a7e1a1faeb8cfc40d3a3e30e6a5
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.7/rpaas-api-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    created: "2022-08-09T14:33:06.804477794Z"
+    description: The API of Tsuru/RPaaS
+    digest: 8fe7aa1954c9d78f7c15a67a8a5ad3c229e25259e433c993216f6995afa6e79f
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.6/rpaas-api-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    created: "2022-07-27T16:28:52.862178993Z"
+    description: The API of Tsuru/RPaaS
+    digest: 381cae5ca36b26357ecb525d382a77ebb20bbb6f423ddfb4d8c2b32ca93c499a
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.5/rpaas-api-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    created: "2022-02-01T14:24:40.20508903Z"
+    description: The API of Tsuru/RPaaS
+    digest: 08b182fac04002c22adfeed5490b7db630509fa6920281d69b8c9e0fbddf37cd
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.4/rpaas-api-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    created: "2022-02-01T13:13:37.00251561Z"
+    description: The API of Tsuru/RPaaS
+    digest: 8d849115d0cd36d085ff30e4e09f037fc8cab7c980f9864680bdebc26a133b75
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.3/rpaas-api-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    created: "2022-02-01T13:02:59.203609536Z"
+    description: The API of Tsuru/RPaaS
+    digest: 5bc7c2c1cb74afad9f2248edb4ca7a059a9c9cd9149d2c79380bf55567fe4062
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.2/rpaas-api-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2022-01-31T18:58:56.488918928Z"
+    description: The API of Tsuru/RPaaS
+    digest: cee4ac7d829f9b64f86ca0d286ea62e15ee22057ec28f56ae3ca39ce533a2a83
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.1/rpaas-api-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2022-01-31T18:17:01.44642958Z"
+    description: The API of Tsuru/RPaaS
+    digest: a3d184da0da0d33be833fd23c2f2b84839585610425a77b7fd2c5844789e5878
+    name: rpaas-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-api-0.1.0/rpaas-api-0.1.0.tgz
+    version: 0.1.0
+  rpaas-monitoring:
+  - apiVersion: v2
+    created: "2022-03-31T20:16:49.883313966Z"
+    description: Service monitor to scrape all rpaas pods
+    digest: 52bac850374c1287d8aaf124b472d44ac8ad37f7da42f7413330311a8753e630
+    name: rpaas-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-monitoring-0.1.3/rpaas-monitoring-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    created: "2021-07-09T19:46:52.307921965Z"
+    description: Service monitor to scrape all rpaas pods
+    digest: 006b92aa091b2a70a0b7ba0c2933d385c19a4c569849b3a07a2f7c78a3cd4124
+    name: rpaas-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-monitoring-0.1.2/rpaas-monitoring-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2021-07-09T18:49:56.756212841Z"
+    description: Service monitor to scrape all rpaas pods
+    digest: dfdb25aa693a6f4be8b6bd6319d19343f8164366973c6861b95db97cc5f28f9f
+    name: rpaas-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-monitoring-0.1.0/rpaas-monitoring-0.1.0.tgz
+    version: 0.1.0
+  rpaas-operator:
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2022-08-26T20:17:08.210654624Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 61625b6e60291cec9bbc5328de75011deac914b8d944b54802dc01c6c93acacb
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.6/rpaas-operator-0.9.6.tgz
+    version: 0.9.6
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2022-08-26T19:38:14.491904012Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 86ffd54ddb5aa92acc956edcb79db892403556b2901c9912a0f0e195a099c6d6
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.5/rpaas-operator-0.9.5.tgz
+    version: 0.9.5
+  - apiVersion: v2
+    appVersion: 0.33.0
+    created: "2022-08-17T20:10:10.497041584Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: a95f13318c551b515b5214b1fd79a0788ea7a771d181c31866620ece2f39c730
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.4/rpaas-operator-0.9.4.tgz
+    version: 0.9.4
+  - apiVersion: v2
+    appVersion: 0.32.0
+    created: "2022-08-09T20:26:25.58563986Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 698d306c90900ab1c1076dca2d55addaedb048280a962d5e162dce36b3f2d9c6
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.3/rpaas-operator-0.9.3.tgz
+    version: 0.9.3
+  - apiVersion: v2
+    appVersion: 0.32.0
+    created: "2022-08-08T22:11:47.204600204Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 389a7cb18306de7497a2b8c5b7edfaf60e01897892b1884c86d31f9d7c24702b
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.2/rpaas-operator-0.9.2.tgz
+    version: 0.9.2
+  - apiVersion: v2
+    appVersion: 0.31.0
+    created: "2022-07-27T16:28:53.050576489Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: e509f43e8c3e287e5e2e7a13580145aee54a7e610ed3177b243eabbd8490700d
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.1/rpaas-operator-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v2
+    appVersion: 0.30.0
+    created: "2022-07-26T15:31:02.178734911Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 73788955dcc5382f0e970762f0c52ae49414801311e8d7a28e29af4a18cc6a5b
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.9.0/rpaas-operator-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 0.29.0
+    created: "2022-07-20T18:16:59.369039595Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: a017d546a3c3c5ad213201022a309cc571e2580e81040bcd4145400aa9d44f8e
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.8.0/rpaas-operator-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 0.28.1
+    created: "2022-07-01T19:07:32.027779406Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: ff46b460aeb3da39002deee2e045d023657eb078cf280303e0965c9ee1a898a0
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.7.0/rpaas-operator-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 0.27.0
+    created: "2022-03-23T15:00:49.888208059Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 6723b1667d341132e464deb8987bd0e1dc31e6c4bd756f6060f79a64087773dc
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.9/rpaas-operator-0.6.9.tgz
+    version: 0.6.9
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-02-17T23:39:54.984470063Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 0443d43c36cb72a5843de66582d747eca1ee28b183c31cdc1a7fe880ba2d1d90
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.8/rpaas-operator-0.6.8.tgz
+    version: 0.6.8
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-02-17T13:00:25.575413146Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: f0b7789de8f279e488cfc09e7b34dba048ba163d247b6d0a0385f02a81ce9e81
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.7/rpaas-operator-0.6.7.tgz
+    version: 0.6.7
+  - apiVersion: v2
+    appVersion: 0.26.1
+    created: "2022-01-27T20:05:27.410936362Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: c683b1b0961e1b83810e262782750f85a409e1da31f01c6918373bf8c2c3b44d
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.6/rpaas-operator-0.6.6.tgz
+    version: 0.6.6
+  - apiVersion: v2
+    appVersion: 0.22.3
+    created: "2021-12-15T21:49:55.62583607Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 8cc0e514b0afecf4720058c50813563fa3bb57472cb0669897ae38752c5d24fd
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.4/rpaas-operator-0.6.4.tgz
+    version: 0.6.4
+  - apiVersion: v2
+    appVersion: 0.22.3
+    created: "2021-12-15T21:13:04.831330877Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 4e9d7ef2aa0359a31170825358961a1cffed91a90fa3130aefd549455307ac3c
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.3/rpaas-operator-0.6.3.tgz
+    version: 0.6.3
+  - apiVersion: v2
+    appVersion: 0.22.3
+    created: "2021-12-15T20:52:27.72751261Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 666d7a145975cd04b669661c242a0673f3968b0797a91e5739f73e3ee6c6c75e
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.2/rpaas-operator-0.6.2.tgz
+    version: 0.6.2
+  - apiVersion: v2
+    appVersion: 0.22.0
+    created: "2021-10-19T20:52:08.340844259Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 32b8deaf5687f20def2a1dfd96ef6d3ca216e9367af9704443bc24c2cf0eb875
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.1/rpaas-operator-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
+    appVersion: 0.22.0
+    created: "2021-10-19T16:57:01.732207503Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: f07cb9cac58b505e1ed4df89f279d604164a5c5c580e304346754ea2a6e5564a
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.6.0/rpaas-operator-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 0.18.0
+    created: "2021-09-08T20:52:36.35279725Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 3069e21a6f256c432fac30bb2fdc8407ab8c6a44a9e14e771feb284cf6e6851e
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.5.0/rpaas-operator-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 0.18.0
+    created: "2021-09-06T22:26:55.395981032Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 82e8c8a38ca69559cae33385642ec904ae90eeade57c7bd71ecca1b9376ec5d9
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.4.0/rpaas-operator-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-09-06T21:47:59.07592896Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 092cf952741bfff5a6c01bf00d653de6eef916611e6295b1b6189fbb0c922e08
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.2.0/rpaas-operator-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-08-24T17:56:09.954012236Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 2ab606506908d0890e462d9eb521cb52ce2402fbebae111844a913bdcc467574
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.6/rpaas-operator-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-08-24T14:53:04.71141511Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 65d89790c0ef4b3089ca84e302fefbf223412c67def77c3af2d6de0d3f229dbf
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.5/rpaas-operator-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-08-11T14:06:56.243458535Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: e713d111b8a6dee2f33f47139f232570f1c23d391ab3386a6af870ce77dfb0fd
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.4/rpaas-operator-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-06-15T21:56:45.242571705Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: c683f501b7ac1f4f4fd4c58e68e9e46e279da5f096a987dca748dad6512c379c
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.3/rpaas-operator-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-06-15T21:14:43.233889827Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 60630c91abf5ab7a8010f967e30c8ffeca69463b3ed1b38e9c1592ab75718705
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.2/rpaas-operator-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-05-05T13:36:17.429467562Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: d125ca97b07cc42c4067398d2fb529beead9a584eb2d670dab6ab3e1554cea8d
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.1/rpaas-operator-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.12.6
+    created: "2021-05-04T15:11:27.094367208Z"
+    dependencies:
+    - condition: nginxOperator.enabled
+      name: nginx-operator
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    description: RPaaS operator manages reverse proxy as service instances inside
+      a Kubernetes cluster
+    digest: 405ff63d410fdcc80da74ac0406bbc55b3a8f901401d4af5d3898cb609bc65b5
+    name: rpaas-operator
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-operator-0.1.0/rpaas-operator-0.1.0.tgz
+    version: 0.1.0
+  rpaas-purger:
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-11-03T17:16:17.900839582Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: ba066e0fd3a012b91abd662ecc43271bf886f3718d7f949db793a8eedbfc8985
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.2.4/rpaas-purger-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-11-03T16:58:59.575805137Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: d2cd2676a680bae2f4e1b9d63d31dc39e02e62e49bebc8601d2a07bed341f90c
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.2.3/rpaas-purger-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-11-03T14:58:32.453188521Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: a6c5aba88e82319238e43e922ab3a6191f339745c0987af670fa8f8d030a0f16
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.2.2/rpaas-purger-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-09-13T18:59:04.564931992Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: 2efb416edc0629601d40289f99c70ee249307b0656f2f477c4281f46e52e50ab
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.2.1/rpaas-purger-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-09-13T18:45:25.075732366Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: e05598779ab495c1d0e350365feaa73fd3969024085679956febf2e0ce4a006a
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.2.0/rpaas-purger-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-03-16T18:21:09.525563482Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: 75c03e1bcf31e726c9b2a5a83f152d1aaf3583616ba9fbcb93bebbd5cd398711
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.1.1/rpaas-purger-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.26.2
+    created: "2022-03-15T20:50:24.362095594Z"
+    description: RpaaS Purger API is a HTTP API that purges cache from the nginx instances
+      created by RpaaS.
+    digest: 56c47470fc9f16b1caa013b933e386274dfdc0d8e588f301ae11288b1a7f79bf
+    name: rpaas-purger
+    sources:
+    - https://github.com/tsuru/rpaas-operator
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-purger-0.1.0/rpaas-purger-0.1.0.tgz
+    version: 0.1.0
+  rpaas-slo-controller:
+  - apiVersion: v2
+    created: "2021-10-04T21:03:45.948542499Z"
+    description: Integrate slo-generator with rpaasinstances
+    digest: d854ed4f2c1dd9d656c602487b458f8466bbb5ab0ebca79b9faca28d7cc334e2
+    name: rpaas-slo-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-slo-controller-0.1.3/rpaas-slo-controller-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    created: "2021-09-24T19:33:54.765219801Z"
+    description: Integrate slo-generator with rpaasinstances
+    digest: 9316564c6c3b0f74a624dbf438d2877f0f69eb62224c4052ac4700cd5096a433
+    name: rpaas-slo-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-slo-controller-0.1.2/rpaas-slo-controller-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2021-09-23T20:27:45.753427273Z"
+    description: Integrate slo-generator with rpaasinstances
+    digest: 78c2390cc281c8ebaa0478031582cc1a9ce1037c964918538d2765623a7bc1be
+    name: rpaas-slo-controller
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/rpaas-slo-controller-0.1.1/rpaas-slo-controller-0.1.1.tgz
+    version: 0.1.1
+  sysctl:
+  - apiVersion: v2
+    created: "2021-12-21T21:12:28.34452952Z"
+    description: A Helm chart for handle sysctl on Kubernetes nodes
+    digest: 12eed42939474c3c4b476e2c448256f87604693d27b009eae45562051158be68
+    name: sysctl
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/sysctl-0.1.4/sysctl-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    created: "2021-12-21T20:13:43.057687773Z"
+    description: A Helm chart for handle sysctl on Kubernetes nodes
+    digest: 7e73f999b78c2c8e35e49f1746ff639c8f6fa5262f10bd43768b20a6745901d9
+    name: sysctl
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/sysctl-0.1.3/sysctl-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    created: "2021-12-14T19:09:25.557265404Z"
+    description: A Helm chart for handle sysctl on Kubernetes nodes
+    digest: e2482052d58dffd878f4f385b3fcadbd55d497da609bd7814cb27cc419965a16
+    name: sysctl
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/sysctl-0.1.2/sysctl-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    created: "2021-12-14T13:29:32.881844766Z"
+    description: A Helm chart for handle sysctl on Kubernetes nodes
+    digest: 475e17caad1c9a87b2b770155edf941f3faf2a82ed610da9b08979f6c3c451db
+    name: sysctl
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/sysctl-0.1.1/sysctl-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    created: "2021-12-13T20:30:54.347075581Z"
+    description: A Helm chart for handle sysctl on Kubernetes nodes
+    digest: 92e0f63bd2be8e611d99938cafeded3b628178558be767d27ac888ea2c356847
+    name: sysctl
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/sysctl-0.1.0/sysctl-0.1.0.tgz
+    version: 0.1.0
+  tsuru-api:
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-10-13T13:02:43.846405834Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: aa29aeec17541d5dd9911141ff69a77bb2f76f9be08a69a9431667ceff721b64
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.9/tsuru-api-0.2.9.tgz
+    version: 0.2.9
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-09-23T18:46:00.577740902Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: d78abba8039541f9b31c50a78f662a64f578133d4196761bb559ac1187b68d6e
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.8/tsuru-api-0.2.8.tgz
+    version: 0.2.8
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-09-12T14:15:17.958682111Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 2350184ff87ceb3f8d3de5035fcabd6cd504c813ef00c8dc855adf7c0d6453b0
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.7/tsuru-api-0.2.7.tgz
+    version: 0.2.7
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-06-01T19:58:44.011531845Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 1eaffa197047b784934a974737c95d67f7c4e0d858d6f41b01c3c357ec966b47
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.6/tsuru-api-0.2.6.tgz
+    version: 0.2.6
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-06-01T19:35:47.158369322Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: bebf3cb7df3cfbe02f741ed5a792abf84b61789e58b55be3638cc0c1663d4e33
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.5/tsuru-api-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-31T18:21:14.902862816Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: b2b461ff4605ffecf5327d3b7349b69354ec6021c914d02fe7fe0f212f1b28d6
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.4/tsuru-api-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-30T14:34:12.302910242Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 414705f35d88126d6c76e9fb9b2e5ef40f5bb9da6346f6934403f5aaec76148e
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.3/tsuru-api-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-30T14:16:33.199791729Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 79135c63ee6fdacecda3b8fea67c7f28a23dc42474e9c3a353eb888f215faace
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.2/tsuru-api-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-30T13:01:05.298197959Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: e4e2784e1384d1c50574197cc2e99f90e6e30cdc3f25e45406ba9773256a3f0b
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.1/tsuru-api-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-30T12:44:48.905416375Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 172d55cd3934580b051407bde2ef363c1e0182a520796e01aae276bdb822412b
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.2.0/tsuru-api-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-25T14:28:13.577013237Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: aa5ba30e9a53b0228f6b8c54365a5cb3cc8ee9593867fa994b472d384ba69861
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.28/tsuru-api-0.1.28.tgz
+    version: 0.1.28
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-25T14:22:29.545379321Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: cb181823db52dee9a3460109e95ad334d734b2d0ebea1bd7dd3c1b7451a8d48b
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.27/tsuru-api-0.1.27.tgz
+    version: 0.1.27
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-05-23T14:46:16.415669127Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: a36564a657a598f954055f955c58661df92e003eb51453f71985b750760e568b
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.26/tsuru-api-0.1.26.tgz
+    version: 0.1.26
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-02-01T20:07:26.223556491Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 1dce5787fcd96a7b2ed56b2868a98511b1408c5cca1d69e7463f8643bfd0406c
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.25/tsuru-api-0.1.25.tgz
+    version: 0.1.25
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-01-28T12:59:45.659068422Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: f6b2db10c93d2b77abcffb7880479091cf172acd759eb796fb9644c3dad405d4
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.24/tsuru-api-0.1.24.tgz
+    version: 0.1.24
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-01-28T12:20:08.142135113Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 43e5ab39246fbea754469a7198fef6674ec21f29d825209d096c3784717f5bef
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.23/tsuru-api-0.1.23.tgz
+    version: 0.1.23
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-01-26T19:49:40.229778989Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: e99d9db8cc3260345995d97f38862f08acdb085a949c07560f64e33e48333f89
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.22/tsuru-api-0.1.22.tgz
+    version: 0.1.22
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-01-26T17:37:33.905266103Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 09e595f8896b2572458722cc65776764556cd462f0c665c768561eb958ce45a3
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.21/tsuru-api-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-01-26T17:29:07.271106703Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: db1d5734d5938171017bf796aec092bb97281983b77f234bd20515f4196e76fa
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.20/tsuru-api-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2022-01-21T20:10:47.066750825Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 494e2e214c8a5aa6d7ce81d92241ca852981a03feeadc9b600ba5cf94c040ff8
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.19/tsuru-api-0.1.19.tgz
+    version: 0.1.19
+  - apiVersion: v2
+    appVersion: 1.10.3-rc3
+    created: "2021-11-30T13:35:58.922738177Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 8d4a0c4bad8db9aeded92dafc93695f22443d06dadc42527ec2cd9ada53833d7
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.18/tsuru-api-0.1.18.tgz
+    version: 0.1.18
+  - apiVersion: v2
+    appVersion: 1.10.3-rc1
+    created: "2021-11-29T17:34:13.866134189Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 33ecee1825f1341ad6a63348a1dba9162be1c72a7260215baf31a45fd8a59a75
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.17/tsuru-api-0.1.17.tgz
+    version: 0.1.17
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-11-22T18:29:41.494489051Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: ec96ebda7674718f7f395095f215f3ac41125d05b5a9113b8d483364158b16f6
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.16/tsuru-api-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-10-21T20:05:33.851924481Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 92e258533866d435378e4dc27c8b8615b43e9dd562de4244481702d668aa1588
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.14/tsuru-api-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-10-21T19:52:12.459506969Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 021f4a50b99f51dbb6e730de8bd7784e006b8200afed4d1dc16f5594a73351cb
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.13/tsuru-api-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-10-21T18:37:27.002950816Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 99b69b5b6a6106bd409b93fc79d107f26d7e5c808fd33742e51bfa3982ecc0a3
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.12/tsuru-api-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-10-09T22:15:05.792234198Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 3e60eb7570987cc5629877bdcbb6b8ebc236d80b7ca2c528c6275ba4e7551f90
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.11/tsuru-api-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-09-29T20:30:08.601091009Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: f9d076dd250ad0d779908ae446142b4f3fca8e5299423123a06367a2da23fabc
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.8/tsuru-api-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-09-27T20:38:52.363391614Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 96ffe84e3591beb45b2a6dc513406d7201cbcb65ab5e81227d2e5bfa015817a8
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.7/tsuru-api-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 1.10.1-rc1
+    created: "2021-06-22T19:06:12.72764393Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 892b12f8b0481f29fc096b4fe4d37dedfde7c7cf08c21b3dc3b1ce6241425717
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.6/tsuru-api-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.9.2-rc1
+    created: "2021-05-20T14:17:13.096434162Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 7e1a3632bf03bbf2f72b9e4df5d700c807bf64d17a6c1deb1b2e2a79f5d29cb7
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.5/tsuru-api-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.9.2-rc1
+    created: "2021-05-17T20:30:33.360911293Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 70cc8efd799a4eb1393159d34af2e7fedebfc5a8256058544869e6947fda1e00
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.4/tsuru-api-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.9.2-rc1
+    created: "2021-05-10T20:28:00.088197022Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: cd27464e97a4c53e40fedab7ebcd92054a69084759052e42988275d93a802087
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.3/tsuru-api-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.9.2-rc1
+    created: "2021-04-29T20:09:25.281303294Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: a66d8247d6f0d32df58a39300b966d44f64f9accc375ab5fec613a066bd7f52d
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.2/tsuru-api-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.9.2
+    created: "2021-04-29T14:23:40.056394264Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: 1e37eec8872515656c48ec0973794ec04537fe21b9a1c728d56b9fb16cf0d11f
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.1/tsuru-api-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.9.2
+    created: "2021-04-28T15:49:10.098080342Z"
+    description: A Helm chart to install Tsuru API Server
+    digest: d8e01390cc450aa641c2823f9ac2c1b49c1f4b3bd3973fb130dc502ff049689d
+    name: tsuru-api
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-api-0.1.0/tsuru-api-0.1.0.tgz
+    version: 0.1.0
+  tsuru-monitoring:
+  - apiVersion: v2
+    created: "2022-08-29T14:03:54.662476086Z"
+    description: A Helm chart for Kubernetes
+    digest: f5a48bae127a06d9cf1f4d0791e121389bc08f81f9db47d3874c7bdd49b71c8e
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.18/tsuru-monitoring-0.3.18.tgz
+    version: 0.3.18
+  - apiVersion: v2
+    created: "2022-06-28T19:53:07.963586951Z"
+    description: A Helm chart for Kubernetes
+    digest: f708f596eaee6b18d3197461b395cfd1b450eb38c1818fd6dde041299efb285b
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.17/tsuru-monitoring-0.3.17.tgz
+    version: 0.3.17
+  - apiVersion: v2
+    created: "2022-06-28T19:41:50.759159344Z"
+    description: A Helm chart for Kubernetes
+    digest: 28c2c641781626474fe1a6c5be55cc2f08aacc97714c04794e81c4aba20dc536
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.16/tsuru-monitoring-0.3.16.tgz
+    version: 0.3.16
+  - apiVersion: v2
+    created: "2022-06-28T15:59:30.198393886Z"
+    description: A Helm chart for Kubernetes
+    digest: b3ff3c4d15c683ad83d9f1bb49abe715c5a2148f1b51cbeecaf82c26e77e4f55
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.15/tsuru-monitoring-0.3.15.tgz
+    version: 0.3.15
+  - apiVersion: v2
+    created: "2022-06-28T13:28:24.923820835Z"
+    description: A Helm chart for Kubernetes
+    digest: 49618255ee5d35ac8f8789b06e7802fc2a4447e41f6e91d7a62338ef71524d8f
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.14/tsuru-monitoring-0.3.14.tgz
+    version: 0.3.14
+  - apiVersion: v2
+    created: "2022-06-28T13:02:13.72177667Z"
+    description: A Helm chart for Kubernetes
+    digest: ae054f0cade0607fdc3c3f444c43218eaa507530a0c73ea8b2114a29df1400ed
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.13/tsuru-monitoring-0.3.13.tgz
+    version: 0.3.13
+  - apiVersion: v2
+    created: "2022-03-31T20:16:50.007391583Z"
+    description: A Helm chart for Kubernetes
+    digest: febee8ba11edef1e7c612b4a995ac5b431970761c82b990cf8a9467d3028de49
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.12/tsuru-monitoring-0.3.12.tgz
+    version: 0.3.12
+  - apiVersion: v2
+    created: "2022-01-28T18:58:30.502657834Z"
+    description: A Helm chart for Kubernetes
+    digest: c41e6a37ac5346d7acc976576286015df2b65bcc323a55ae2a9cb06138129678
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.11/tsuru-monitoring-0.3.11.tgz
+    version: 0.3.11
+  - apiVersion: v2
+    created: "2022-01-28T17:26:35.301246539Z"
+    description: A Helm chart for Kubernetes
+    digest: 8f99e0e5affa894b77cc3603ca19e9caa54d11f4850dcc974d3e0779b7f7bff4
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.10/tsuru-monitoring-0.3.10.tgz
+    version: 0.3.10
+  - apiVersion: v2
+    created: "2022-01-28T17:13:15.080481724Z"
+    description: A Helm chart for Kubernetes
+    digest: ab6190e7e93974c1b50dfc6164019862df31392e3d686bb0b067e12be94b1f51
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.9/tsuru-monitoring-0.3.9.tgz
+    version: 0.3.9
+  - apiVersion: v2
+    created: "2021-12-06T12:41:54.654676517Z"
+    description: A Helm chart for Kubernetes
+    digest: d674e4b5bf3488541d7007b629c669f93122e6069c19c53ce02f4b65616d88c2
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.8/tsuru-monitoring-0.3.8.tgz
+    version: 0.3.8
+  - apiVersion: v2
+    created: "2021-10-15T18:15:31.73484429Z"
+    description: A Helm chart for Kubernetes
+    digest: daf2a5ad4290a144dfeb15fea0d724b1e1e9e2b1234c51b7f2a338ee73d96c07
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.7/tsuru-monitoring-0.3.7.tgz
+    version: 0.3.7
+  - apiVersion: v2
+    created: "2021-10-05T18:01:06.813836914Z"
+    description: A Helm chart for Kubernetes
+    digest: 05ee2fe74eb5e8e561aac32bbeaada8c6eba56a7571182d8b98cd3e8e49f2d83
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.6/tsuru-monitoring-0.3.6.tgz
+    version: 0.3.6
+  - apiVersion: v2
+    created: "2021-10-01T14:33:55.959237231Z"
+    description: A Helm chart for Kubernetes
+    digest: 754b93f9bfaa3d180c8998a7d757750fc57176423bf5e3f7a1081383dd44074d
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.4/tsuru-monitoring-0.3.4.tgz
+    version: 0.3.4
+  - apiVersion: v2
+    created: "2021-09-22T12:40:59.772662462Z"
+    description: A Helm chart for Kubernetes
+    digest: 89f682d8f0ba01141eba58a60d79de42096e8d8ccb235d4157a87745ccdaa592
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.3/tsuru-monitoring-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
+    created: "2021-09-02T19:33:31.543747832Z"
+    description: A Helm chart for Kubernetes
+    digest: d37b5bad9f686092653c78d4ae6965c5492fdb6957798d72e90b436ecbe4b56b
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.2/tsuru-monitoring-0.3.2.tgz
+    version: 0.3.2
+  - apiVersion: v2
+    created: "2021-08-13T21:44:41.402340559Z"
+    description: A Helm chart for Kubernetes
+    digest: 7b6cc589f94d300ae44b0fb21d3017987aa1ff10e3d22c38a71da71b5b4520a2
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.1/tsuru-monitoring-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    created: "2021-08-06T19:50:53.042529249Z"
+    description: A Helm chart for Kubernetes
+    digest: 8ac38b391ab7cdec6b322df529a9347c00d5fac7ee054bf306fdda50fe28911a
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.3.0/tsuru-monitoring-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2021-06-10T20:33:21.435620346Z"
+    description: A Helm chart for Kubernetes
+    digest: 2d2ab8091c062a857a2b65a6892170d39b205ff2854ec73ed22ce5c9075c7ec6
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.2.2/tsuru-monitoring-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    created: "2021-06-10T20:17:47.926177875Z"
+    description: A Helm chart for Kubernetes
+    digest: af9fe9977aab97c5fb8c767817e1c8171d17d7da68a8d6291eefe63c4de2046b
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.1.2/tsuru-monitoring-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-04-29T15:03:42.617379068Z"
+    description: A Helm chart for Kubernetes
+    digest: f380cd1329f73b9ce211ac6ca812aa89c7128a8dd43f9b692a6dd669c337805d
+    name: tsuru-monitoring
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-monitoring-0.1.1/tsuru-monitoring-0.1.1.tgz
+    version: 0.1.1
+  tsuru-prometheus-pool:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-21T13:20:57.821341134Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 6e153b474a4a2228b1418487cdec5beedaf5d7a2456ec42b3fac1eeea91de03e
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.26/tsuru-prometheus-pool-0.1.26.tgz
+    version: 0.1.26
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-21T13:12:37.360369432Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 24120c0299079e0b950c488e1c778df6ae122ff931a08e7afd353a4d4c42e95b
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.25/tsuru-prometheus-pool-0.1.25.tgz
+    version: 0.1.25
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-21T13:05:13.601037161Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: adeefb19cb0b2e7fc9627c26cd671293e832fe5665a02c4eeb70fb0f05c69d69
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.24/tsuru-prometheus-pool-0.1.24.tgz
+    version: 0.1.24
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-21T12:55:38.931552375Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: e97d54bb7f8eee5bb8a38a056790f4837e9149f6cac1843970c011c08400818d
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.23/tsuru-prometheus-pool-0.1.23.tgz
+    version: 0.1.23
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-21T12:30:55.509670141Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 350f78fa2811dcdff9d4ae5dc639c6495353f65bcb435fe725151098155596d5
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.22/tsuru-prometheus-pool-0.1.22.tgz
+    version: 0.1.22
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-04T19:27:32.059671162Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: f625e614aa34163b0dfc186868be5ec974424494c443acc692d2b6fcad996260
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.21/tsuru-prometheus-pool-0.1.21.tgz
+    version: 0.1.21
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-12-06T12:41:54.788424476Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: dd55472528d229b7bdbcf85a40621b91a3ac985a85d4106bd3e7cdcc142ff3e7
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.20/tsuru-prometheus-pool-0.1.20.tgz
+    version: 0.1.20
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-29T21:19:53.359224563Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 88e6bce87d1706a92e6fae56de4bb28b250a90133199a93085ac64b81fae5685
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.19/tsuru-prometheus-pool-0.1.19.tgz
+    version: 0.1.19
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-15T18:15:31.898661566Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: ec5b87d96b06f1e6730d063371e86631786d249016e1a50fa7fb5056431ff848
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.17/tsuru-prometheus-pool-0.1.17.tgz
+    version: 0.1.17
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-05T18:05:42.914433377Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 55f17eecd3202b9307e077b4e2d4bafd7512cdb5f5ff79c703735eb973202546
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.16/tsuru-prometheus-pool-0.1.16.tgz
+    version: 0.1.16
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-01T14:33:56.097649835Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 9649f3a466e2900b42061bfe36375331d7e43d7aca45b0d2f4ec3dc70a741ebf
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.15/tsuru-prometheus-pool-0.1.15.tgz
+    version: 0.1.15
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-24T18:09:25.337077806Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 04feb5979208948c68ac582417b5509265b2058a923606cdea6d2cb1a50dbabb
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.14/tsuru-prometheus-pool-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-22T12:40:59.903396137Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 79f0e34060c8216a439379320fde1d5d9bf08de303025c18e101b46688c17ff6
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.13/tsuru-prometheus-pool-0.1.13.tgz
+    version: 0.1.13
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-02T21:33:15.748995397Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: a0787703a2a9abef303b26878c758f9ac2e09713cf60947b1396f7ba1092bba1
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.12/tsuru-prometheus-pool-0.1.12.tgz
+    version: 0.1.12
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-02T21:26:10.579397495Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: b4673b1c97e0a7dcd1d2cf845ae5dc5028e34a18a47e97021e1c9226c433a897
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.11/tsuru-prometheus-pool-0.1.11.tgz
+    version: 0.1.11
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-02T20:32:42.133803757Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 25220dd13ba8e0ae95554734ca272ee3c5718793d2b0339ad9e80dfb4938558d
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.10/tsuru-prometheus-pool-0.1.10.tgz
+    version: 0.1.10
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-02T19:33:31.666925705Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: d7b37e00b7a6efcc4197580f0ac979d513384bc46d59ddc015f91c9d60a4ff61
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.9/tsuru-prometheus-pool-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-09-01T20:37:04.244511252Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 95c06cf84c079c4bed92c68ee3bc9faee064c96c9bf531f770001bacb9c49c24
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.7/tsuru-prometheus-pool-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-10T13:12:23.352136304Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 454d3db08d90aa9c04d2b6202a57903f59ab4ef14f17670b13fc0c2cddc46bba
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.6/tsuru-prometheus-pool-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-08-10T12:11:12.303133104Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 7f9376260c1b1eedf0cc471aaf8a924a8f3d1c4bcaa238ea386179ff6f6efa46
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.5/tsuru-prometheus-pool-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-26T14:50:53.503034982Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 1cee422c06a5e6baee17612dbbe6af7baf18e43ccde353262a2e657d8e65ac8f
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.4/tsuru-prometheus-pool-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-07T18:13:55.589791858Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: c5fe2057627591246347394ab3203098aa24d8274d5a5c02779f969a06e0d198
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.3/tsuru-prometheus-pool-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-07T18:04:47.432294127Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 112af410776c5a6703f88b32faafd74af5973a85130eb61934e98479bcc53818
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.2/tsuru-prometheus-pool-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-16T19:36:30.369350903Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 72670d0681c59fa60175a86142e49586e88cf34bd29726d2a9d6a6218d2e34fa
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.1/tsuru-prometheus-pool-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-04-16T18:27:33.082868466Z"
+    description: Dedicated prometheus instance by tsuru pool
+    digest: 06cb6c52c43705b5e3e47199a5feefd803764826b6eb8c9ca58a8cdfff9b87b5
+    name: tsuru-prometheus-pool
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-prometheus-pool-0.1.0/tsuru-prometheus-pool-0.1.0.tgz
+    version: 0.1.0
+  tsuru-stack:
+  - apiVersion: v2
+    created: "2022-10-13T13:05:58.821177419Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.2.9
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.15
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 6cf9c285d4f2fb08dce0b00b8f728a83dff6856254f71bb901bd9321582c55c5
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.4.1/tsuru-stack-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v2
+    created: "2022-10-11T17:21:02.276725921Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.2.8
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.15
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: c6439bc2e47ccae12607dc5423981d873d95a35e50b8f04f52f15ec395df98a0
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.4.0/tsuru-stack-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    created: "2022-10-11T13:08:58.773897764Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.18
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.15
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: bdff8c92f161e8b80ee7a54d39621c850ef7579e2257a298fa7b37f81fa10290
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.3.3/tsuru-stack-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
+    created: "2022-10-10T14:54:00.663429785Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.18
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.15
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.1.31
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 4eb7e989ab454d86d00b542df0b9d91dbfda5041630722ba7b732520be54e2eb
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.3.2/tsuru-stack-0.3.2.tgz
+    version: 0.3.2
+  - apiVersion: v2
+    created: "2022-10-10T14:25:29.499017526Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.18
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.15
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 13.1.7
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 68d95c6f286857a3e84ca4462502d61f6ec9cd505f5dd7b85bf433016997fa06
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.3.1/tsuru-stack-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    created: "2022-05-13T20:27:48.434088867Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.18
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.14
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 1e01e6697f47ac12501c634f2ecf56505e1090dd970673c45c35d859302a22a3
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.3.0/tsuru-stack-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    created: "2021-12-10T19:46:13.195064222Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.18
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.12
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 50c6fe088c33e30d1f4895409b5c2ad1a9cfaa152a761155c29f8c8e4a9e1ef7
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.9/tsuru-stack-0.2.9.tgz
+    version: 0.2.9
+  - apiVersion: v2
+    created: "2021-11-29T17:34:14.127463304Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.16
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.12
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 4.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 780fd20dcd923ea3fa1f2e3cc328729395844d6dc1882b1e52c2cb333a1ee97a
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.8/tsuru-stack-0.2.8.tgz
+    version: 0.2.8
+  - apiVersion: v2
+    created: "2021-11-22T21:16:23.608859458Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.16
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.12
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 76a55a07da3b4ccf236bb3c3b2701535f0473beb1cfb0413d2d4a8ebba6fd667
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.7/tsuru-stack-0.2.7.tgz
+    version: 0.2.7
+  - apiVersion: v2
+    created: "2021-11-22T18:37:35.882478706Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.16
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.11
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 494755910e124626f791dbf306ce54e09a31ab5832e3357f55e2b1984b3d911c
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.6/tsuru-stack-0.2.6.tgz
+    version: 0.2.6
+  - apiVersion: v2
+    created: "2021-10-21T20:10:49.759550011Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.14
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 4fae46b9cdabc0833dd234d4febfd8087567398b8b0387098121e545512c9d58
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.5/tsuru-stack-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    created: "2021-10-21T19:55:56.128892708Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.13
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 74ee845a123875818a1e8be4f4f0ed3c664c6b327b6971ec0f9b0332eb5f425d
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.4/tsuru-stack-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    created: "2021-10-21T19:05:39.454271195Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.12
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 206f8283cd91d5873bb6551f16af50c1bafa98adceedcf7d5ef5b35c2b411ce6
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.3/tsuru-stack-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v2
+    created: "2021-10-11T14:47:26.162847509Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.11
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 0f35f815fb73dcb8cbed21b81ce7b35778c6cccd609627db236b28f723921c76
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.2/tsuru-stack-0.2.2.tgz
+    version: 0.2.2
+  - apiVersion: v2
+    created: "2021-10-09T22:17:04.081486112Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.11
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: bf4c7d1bd6781f1a821401fde8496eb19716b7dfb33e87608ccdd68b973d38fd
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.1/tsuru-stack-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    created: "2021-09-29T20:30:08.801410282Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.7
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: c09896ccbf916387ee99f1eaad8f80784c06e0e1594af14d3ad09a8689711f6e
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.2.0/tsuru-stack-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    created: "2021-09-27T20:46:06.364202731Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.7
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 6bfe73006983fb2b99b532c9e8f67463a09c4e0c408bac0c127ca93b81131a5d
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.9/tsuru-stack-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v2
+    created: "2021-08-30T20:43:14.327526964Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.6
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: d88d2be3e51d6d984def16d052b98a0b162247f67c20b188f4c0b420432dd44b
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.8/tsuru-stack-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v2
+    created: "2021-06-22T21:25:52.957024971Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.6
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 27da01a8e4e0c223600e90254fb19afa7dc21f2c266fbdd32f5114eed5e0481c
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.7/tsuru-stack-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-02T13:25:42.300349274Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 932308f2157f3b62baa1a2132c3ff4539d078021696c161282ae0257993314d3
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.6/tsuru-stack-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-24T14:43:11.973970812Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.5
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.4
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    - condition: certManager.enabled
+      name: cert-manager
+      repository: https://charts.jetstack.io
+      version: 1.3.1
+    description: A Helm chart for Kubernetes
+    digest: 507e8357e26acdf63794d2df786ad4c32633658667b70211d389b656f03e4225
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.5/tsuru-stack-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-10T21:31:39.691469829Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.3
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.4
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    description: A Helm chart for Kubernetes
+    digest: 4a6b091613d510f6e7bc0bec50477cfc229df75bb89cebfd6ace3f52fd93abcf
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.3/tsuru-stack-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-10T20:46:57.379019798Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.3
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.2
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.30.0
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.1
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.1
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    description: A Helm chart for Kubernetes
+    digest: d43919229227f7896f75909cf4477a642b57aa90c912283505a321712461c634
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.1/tsuru-stack-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-05-10T20:28:00.219020503Z"
+    dependencies:
+    - name: tsuru-api
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    - name: kubernetes-router
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    - condition: ingress-nginx.enabled
+      name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.*.*
+    - alias: monitoring
+      condition: monitoring.enabled
+      name: tsuru-monitoring
+      repository: https://tsuru.github.io/charts
+      version: 0.1.*
+    - alias: registry
+      condition: registry.enabled
+      name: docker-registry
+      repository: https://helm.twun.io
+      version: 1.10.*
+    - condition: mongodb.enabled
+      name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.12.6
+    description: A Helm chart for Kubernetes
+    digest: 6a8ac2a20cc903cb00f98c9c63177ad112aefb2106725525a1d7ca53bd0a4d33
+    name: tsuru-stack
+    type: application
+    urls:
+    - https://github.com/tsuru/charts/releases/download/tsuru-stack-0.1.0/tsuru-stack-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-11-10T21:17:10.646641086Z"

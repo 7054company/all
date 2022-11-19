@@ -1,0 +1,578 @@
+239048 18:58:43 psaadm) /opt/psa/admin/bin/usermng --user-exist --user=sysuser_b
+239048 18:58:43 root) /opt/psa/admin/bin/usermng --user-exist --user=sysuser_b
+239050 18:58:43 psaadm) /opt/psa/admin/bin/usermng --user-exist --user=sweet-sutherland_g7zwhn7bog7
+239050 18:58:43 root) /opt/psa/admin/bin/usermng --user-exist --user=sweet-sutherland_g7zwhn7bog7
+239057 18:58:44 psaadm) /opt/psa/admin/bin/usermng --user-exist --user=sweet-sutherland_g7zwhn7bog7
+239057 18:58:44 root) /opt/psa/admin/bin/usermng --user-exist --user=sweet-sutherland_g7zwhn7bog7
+239059 18:58:45 psaadm) /opt/psa/admin/bin/usermng --user-exist --user=sweet-sutherland_g7zwhn7bog7
+239059 18:58:45 root) /opt/psa/admin/bin/usermng --user-exist --user=sweet-sutherland_g7zwhn7bog7
+239061 18:58:45 psaadm) /opt/psa/admin/bin/usermng --add-user --user=sweet-sutherland_g7zwhn7bog7 --homedir=/var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page --skip-homedir --shell=/bin/false
+239061 18:58:45 root) /opt/psa/admin/bin/usermng --add-user --user=sweet-sutherland_g7zwhn7bog7 --homedir=/var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page --skip-homedir --shell=/bin/false
+   239061 18:58:45 root) /usr/sbin/useradd -d /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page -g psacln -s /bin/false -K UID_MIN=10000 sweet-sutherland_g7zwhn7bog7
+      239061 18:58:45 root) pam_tally2 --user sweet-sutherland_g7zwhn7bog7 --reset --quiet
+   239061 18:58:45 root) /usr/sbin/usermod -s /bin/false sweet-sutherland_g7zwhn7bog7
+239072 18:58:45 psaadm) /opt/psa/admin/bin/vhostmng-structure 
+239072 18:58:45 root) /opt/psa/admin/bin/vhostmng-structure 
+239075 18:58:45 psaadm) /opt/psa/admin/bin/vhostmng-structure 
+239075 18:58:45 root) /opt/psa/admin/bin/vhostmng-structure 
+239081 18:58:45 psaadm) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/logs --allow-root
+239081 18:58:45 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/logs --allow-root
+239083 18:58:45 psaadm) /opt/psa/admin/bin/filemng root ln_s ../logs /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/logs --allow-root
+239083 18:58:45 root) /opt/psa/admin/bin/filemng root ln_s ../logs /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/logs --allow-root
+   239083 18:58:45 root) /bin/ln -snf -- ../logs /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/logs
+239086 18:58:45 psaadm) /opt/psa/admin/bin/relink-vhost-logs --create --domain-name sweet-sutherland.13-126-233-124.plesk.page --sys-user-login sweet-sutherland_g7zwhn7bog7 --defer 0
+239086 18:58:45 root) /bin/bash /opt/psa/admin/sbin/relink-vhost-logs --create --domain-name sweet-sutherland.13-126-233-124.plesk.page --sys-user-login sweet-sutherland_g7zwhn7bog7 --defer 0
+239086 18:58:45 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/relink-vhost-logs --create --domain-name sweet-sutherland.13-126-233-124.plesk.page --sys-user-login sweet-sutherland_g7zwhn7bog7 --defer 0 PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/relink-vhost-logs --create --domain-name sweet-sutherland.13-126-233-124.plesk.page --sys-user-login sweet-sutherland_g7zwhn7bog7 --defer 0
+239086 18:58:45 root) /bin/bash -hB /opt/psa/admin/sbin/relink-vhost-logs --create --domain-name sweet-sutherland.13-126-233-124.plesk.page --sys-user-login sweet-sutherland_g7zwhn7bog7 --defer 0
+   239086 18:58:45 root) basename /opt/psa/admin/sbin/relink-vhost-logs
+   239086 18:58:45 root) date +%m.%d;%H:%M
+      239086 18:58:45 root) cat /var/lock/plesk-target-version
+   239086 18:58:45 root) awk { print $1 } /opt/psa/version
+   239086 18:58:45 root) awk { print $1 } /opt/psa/version
+   239086 18:58:45 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+    239086 18:58:45 root) cd /var/www/vhosts
+   239086 18:58:45 root) id -u sweet-sutherland_g7zwhn7bog7
+   239086 18:58:45 root) mkdir -m 0700 ./sweet-sutherland.13-126-233-124.plesk.page/logs
+   239086 18:58:45 root) chown 10000:root ./sweet-sutherland.13-126-233-124.plesk.page/logs
+   239086 18:58:45 root) chmod 0700 ./sweet-sutherland.13-126-233-124.plesk.page/logs
+   239086 18:58:45 root) touch /var/log/plesk/install/plesk-relink-vhost-logs-async-task.log
+   239086 18:58:45 root) stat -c %U:%G 0%a /var/log/plesk/install/plesk-relink-vhost-logs-async-task.log
+   239086 18:58:45 root) chown root:0 /var/log/plesk/install/plesk-relink-vhost-logs-async-task.log
+   239086 18:58:45 root) chmod 0600 /var/log/plesk/install/plesk-relink-vhost-logs-async-task.log
+   239105 18:58:45 psaadm) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs --allow-root
+         239086 18:58:45 root) sleep 10
+   239105 18:58:45 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs --allow-root
+   239108 18:58:45 psaadm) /opt/psa/admin/bin/f2bmng --status
+   239108 18:58:45 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/f2bmng --status
+   239108 18:58:45 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/f2bmng --status
+      239108 18:58:45 root) uname -p
+      239108 18:58:45 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239108 18:58:45 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239108 18:58:45 root) uname -rs
+      239108 18:58:45 root) /bin/systemctl is-active fail2ban.service
+   239115 18:58:45 psaadm) /opt/psa/admin/bin/filemng root touch /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log --allow-root
+   239115 18:58:45 root) /opt/psa/admin/bin/filemng root touch /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log --allow-root
+      239115 18:58:46 root) touch /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239118 18:58:46 psaadm) /opt/psa/admin/bin/f2bmng --get-jails-list
+   239118 18:58:46 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/f2bmng --get-jails-list
+   239118 18:58:46 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/f2bmng --get-jails-list
+      239118 18:58:46 root) uname -p
+      239118 18:58:46 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239118 18:58:46 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239118 18:58:46 root) uname -rs
+      239118 18:58:46 root) /usr/bin/dpkg -S /etc/fail2ban/jail.conf /etc/fail2ban/jail.d/plesk.conf /etc/fail2ban/jail.local
+      239118 18:58:46 root) dpkg-query --search -- /etc/fail2ban/jail.conf /etc/fail2ban/jail.d/plesk.conf /etc/fail2ban/jail.local
+   239125 18:58:47 psaadm) /opt/psa/admin/bin/f2bmng --add-log plesk-apache /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239125 18:58:47 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/f2bmng --add-log plesk-apache /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239125 18:58:47 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/f2bmng --add-log plesk-apache /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+      239125 18:58:47 root) uname -p
+      239125 18:58:47 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239125 18:58:47 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239125 18:58:47 root) uname -rs
+   239131 18:58:47 psaadm) /opt/psa/admin/bin/f2bmng --add-log plesk-apache-badbot /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239131 18:58:47 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/f2bmng --add-log plesk-apache-badbot /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239131 18:58:47 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/f2bmng --add-log plesk-apache-badbot /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+      239131 18:58:47 root) uname -p
+      239131 18:58:47 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239131 18:58:47 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239131 18:58:47 root) uname -rs
+   239137 18:58:47 psaadm) /opt/psa/admin/bin/f2bmng --add-log plesk-wordpress /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239137 18:58:47 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/f2bmng --add-log plesk-wordpress /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+   239137 18:58:47 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/f2bmng --add-log plesk-wordpress /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log
+      239137 18:58:47 root) uname -p
+      239137 18:58:47 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239137 18:58:47 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239137 18:58:47 root) uname -rs
+   239143 18:58:47 psaadm) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpcwTkwgt /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/webstat/index.html 0644 --allow-root
+   239143 18:58:47 root) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpcwTkwgt /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/webstat/index.html 0644 --allow-root
+   239145 18:58:47 psaadm) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpcgr9L9s /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/webstat-ssl/index.html 0644 --allow-root
+   239145 18:58:47 root) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpcgr9L9s /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/webstat-ssl/index.html 0644 --allow-root
+   239147 18:58:47 psaadm) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpczC5S2t /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/anon_ftpstat/index.html 0644 --allow-root
+   239147 18:58:47 root) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpczC5S2t /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/anon_ftpstat/index.html 0644 --allow-root
+   239149 18:58:48 psaadm) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpclBA6Fs /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/ftpstat/index.html 0644 --allow-root
+   239149 18:58:48 root) /opt/psa/admin/bin/filemng root cp2perm /opt/psa/tmp/fpclBA6Fs /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/ftpstat/index.html 0644 --allow-root
+   239151 18:58:48 psaadm) /opt/psa/admin/bin/vhostmng-content 
+   239151 18:58:48 root) /opt/psa/admin/bin/vhostmng-content 
+   239158 18:58:48 psaadm) /opt/psa/admin/bin/nginx_control --status
+   239158 18:58:48 root) /opt/psa/admin/bin/nginx_control --status
+      239158 18:58:48 root) /bin/bash /opt/psa/admin/sbin/pleskrc nginx status
+      239158 18:58:48 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/pleskrc nginx status PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/pleskrc nginx status
+      239158 18:58:48 root) /bin/bash -hB /opt/psa/admin/sbin/pleskrc nginx status
+         239158 18:58:48 root) basename /opt/psa/admin/sbin/pleskrc
+            239158 18:58:48 root) cat /var/lock/plesk-target-version
+         239158 18:58:48 root) awk { print $1 } /opt/psa/version
+         239158 18:58:48 root) awk { print $1 } /opt/psa/version
+         239158 18:58:48 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+            239158 18:58:48 root) dirname /var/log/plesk/rc_actions.log
+         239158 18:58:48 root) stat -c %U:%G 0%a /var/log/plesk/rc_actions.log
+         239158 18:58:48 root) date 
+         239158 18:58:48 root) /bin/systemctl cat nginx.service
+         239158 18:58:48 root) /bin/systemctl is-active nginx.service
+   239182 18:58:48 psaadm) /opt/psa/admin/bin/webstatmng --set-configs --domain-name=sweet-sutherland.13-126-233-124.plesk.page --stat-prog=awstats
+   239182 18:58:48 root) /opt/psa/admin/bin/webstatmng --set-configs --domain-name=sweet-sutherland.13-126-233-124.plesk.page --stat-prog=awstats
+      239182 18:58:48 root) /bin/sed -e s|^\(SiteDomain=\).*|\1\"sweet-sutherland.13-126-233-124.plesk.page\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFile=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/access_log\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogType=\).*|\1W|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DirData=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/webstat\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DNSLookup=\).*|DNSLookup=2|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFormat=\).*|\11|g
+      239182 18:58:48 root) /bin/sed -e s|^\(SiteDomain=\).*|\1\"sweet-sutherland.13-126-233-124.plesk.page\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFile=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/access_ssl_log\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogType=\).*|\1W|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DirData=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/webstat-ssl\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DNSLookup=\).*|DNSLookup=2|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFormat=\).*|\11|g
+      239182 18:58:48 root) /bin/sed -e s|^\(SiteDomain=\).*|\1\"sweet-sutherland.13-126-233-124.plesk.page\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFile=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/xferlog\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogType=\).*|\1F|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DirData=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/anon_ftpstat\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DNSLookup=\).*|DNSLookup=2|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogSeparator=\).*|\1\"\\s+\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFormat=\).*|\1\"%other %time3 %other %host %bytesd %url %other %other %method %other	%other %code %other %other\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(SiteDomain=\).*|\1\"sweet-sutherland.13-126-233-124.plesk.page\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFile=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/xferlog_regular\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogType=\).*|\1F|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DirData=\).*|\1\"/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics/ftpstat\"|g
+      239182 18:58:48 root) /bin/sed -e s|^\(DNSLookup=\).*|DNSLookup=2|g
+      239182 18:58:48 root) /bin/sed -e s|^\(LogFormat=\).*|\1\"%other %time3 %other %host %bytesd %url %other %other %method %other %logname %other %code %other %other\"|g
+   239209 18:58:48 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239209 18:58:48 root) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239211 18:58:48 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239211 18:58:48 root) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239213 18:58:48 psaadm) /opt/psa/admin/bin/phpinimng --virtual-host sweet-sutherland.13-126-233-124.plesk.page --override /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/php.ini --type fpm --global-config /opt/plesk/php/7.4/etc/php.ini --cgi-bin /opt/plesk/php/7.4/sbin/php-fpm --sysuser sweet-sutherland_g7zwhn7bog7 --service-name plesk-php74-fpm --poold /opt/plesk/php/7.4/etc/php-fpm.d --no-reload
+   239213 18:58:48 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/phpinimng --virtual-host sweet-sutherland.13-126-233-124.plesk.page --override /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/php.ini --type fpm --global-config /opt/plesk/php/7.4/etc/php.ini --cgi-bin /opt/plesk/php/7.4/sbin/php-fpm --sysuser sweet-sutherland_g7zwhn7bog7 --service-name plesk-php74-fpm --poold /opt/plesk/php/7.4/etc/php-fpm.d --no-reload
+   239213 18:58:48 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/phpinimng --virtual-host sweet-sutherland.13-126-233-124.plesk.page --override /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/php.ini --type fpm --global-config /opt/plesk/php/7.4/etc/php.ini --cgi-bin /opt/plesk/php/7.4/sbin/php-fpm --sysuser sweet-sutherland_g7zwhn7bog7 --service-name plesk-php74-fpm --poold /opt/plesk/php/7.4/etc/php-fpm.d --no-reload
+      239213 18:58:48 root) uname -p
+      239213 18:58:48 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239213 18:58:48 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239213 18:58:48 root) uname -rs
+      239213 18:58:48 root) /opt/plesk/php/7.4/sbin/php-fpm --test
+   239220 18:58:49 psaadm) /opt/psa/admin/bin/phpinimng --virtual-host sweet-sutherland.13-126-233-124.plesk.page --override /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/php.ini --type cgi --global-config /opt/plesk/php/7.4/etc/php.ini
+   239220 18:58:49 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/phpinimng --virtual-host sweet-sutherland.13-126-233-124.plesk.page --override /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/php.ini --type cgi --global-config /opt/plesk/php/7.4/etc/php.ini
+   239220 18:58:49 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/phpinimng --virtual-host sweet-sutherland.13-126-233-124.plesk.page --override /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/php.ini --type cgi --global-config /opt/plesk/php/7.4/etc/php.ini
+      239220 18:58:49 root) uname -p
+      239220 18:58:49 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239220 18:58:49 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239220 18:58:49 root) uname -rs
+   239226 18:58:49 psaadm) /opt/psa/admin/bin/filemng sweet-sutherland_g7zwhn7bog7 rm -f /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/.php-version
+   239226 18:58:49 root) /opt/psa/admin/bin/filemng sweet-sutherland_g7zwhn7bog7 rm -f /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/.php-version
+      239226 18:58:49 <NA>) rm -f /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/.php-version
+   239229 18:58:49 psaadm) /opt/psa/admin/bin/filemng sweet-sutherland_g7zwhn7bog7 rm -f /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/.php-ini
+   239229 18:58:49 root) /opt/psa/admin/bin/filemng sweet-sutherland_g7zwhn7bog7 rm -f /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/.php-ini
+      239229 18:58:49 <NA>) rm -f /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/.php-ini
+   239232 18:58:49 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239232 18:58:49 root) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239234 18:58:49 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239234 18:58:49 root) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239236 18:58:49 psaadm) /opt/psa/admin/bin/logrot_mng sweet-sutherland.13-126-233-124.plesk.page on by_size 10485760 10 true  --anonymize-ip=false
+   239236 18:58:49 root) /opt/psa/admin/bin/logrot_mng sweet-sutherland.13-126-233-124.plesk.page on by_size 10485760 10 true  --anonymize-ip=false
+   239238 18:58:49 psaadm) /opt/psa/admin/bin/proftpd-config -w /etc/proftpd.d/50-plesk.conf
+   239238 18:58:49 root) /usr/bin/env bash /opt/psa/admin/sbin/proftpd-config -w /etc/proftpd.d/50-plesk.conf
+   239238 18:58:49 root) bash /opt/psa/admin/sbin/proftpd-config -w /etc/proftpd.d/50-plesk.conf
+      239238 18:58:49 root) mktemp /etc/proftpd.d/50-plesk.conf.XXXXXX
+      239238 18:58:49 root) cat 
+      239238 18:58:49 root) rm -f /etc/proftpd.d/50-plesk.conf
+      239238 18:58:49 root) mv -f /etc/proftpd.d/50-plesk.conf.gNGawS /etc/proftpd.d/50-plesk.conf
+      239238 18:58:49 root) chmod 644 /etc/proftpd.d/50-plesk.conf
+      239238 18:58:49 root) chown root:root /etc/proftpd.d/50-plesk.conf
+   239246 18:58:49 psaadm) /opt/psa/admin/bin/pdmng --add-protection --directory=/httpdocs/plesk-stat --vhost-name=sweet-sutherland.13-126-233-124.plesk.page
+   239246 18:58:49 root) /opt/psa/admin/bin/pdmng --add-protection --directory=/httpdocs/plesk-stat --vhost-name=sweet-sutherland.13-126-233-124.plesk.page
+   239248 18:58:49 psaadm) /opt/psa/admin/bin/filemng root mkdir -m0755 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics -p --allow-root
+   239248 18:58:49 root) /opt/psa/admin/bin/filemng root mkdir -m0755 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics -p --allow-root
+      239248 18:58:49 root) mkdir -m0755 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/statistics -p
+   239251 18:58:49 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239251 18:58:49 root) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239253 18:58:49 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239253 18:58:49 root) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239255 18:58:49 psaadm) /opt/psa/admin/bin/pdmng --add-user --directory=/httpdocs/plesk-stat --vhost-name=sweet-sutherland.13-126-233-124.plesk.page --user-name=sweet-sutherland_g7zwhn7bog7
+   239255 18:58:49 root) /opt/psa/admin/bin/pdmng --add-user --directory=/httpdocs/plesk-stat --vhost-name=sweet-sutherland.13-126-233-124.plesk.page --user-name=sweet-sutherland_g7zwhn7bog7
+   239257 18:58:49 psaadm) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/error_docs --allow-root
+   239257 18:58:49 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/error_docs --allow-root
+   239259 18:58:49 psaadm) /opt/psa/admin/bin/vhostmng-content 
+   239259 18:58:49 root) /opt/psa/admin/bin/vhostmng-content 
+   239262 18:58:49 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239262 18:58:49 root) /opt/psa/admin/bin/websrvmng --remove-configs=apache ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_httpd_ip_default.conf
+   239264 18:58:49 psaadm) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239264 18:58:49 root) /opt/psa/admin/bin/websrvmng --remove-configs=nginx ip_default/sweet-sutherland.13-126-233-124.plesk.page.conf ip_default/sweet-sutherland.13-126-233-124.plesk.page_nginx_ip_default.conf
+   239276 18:58:50 psaadm) /opt/psa/admin/bin/dnsmng --update sweet-sutherland.13-126-233-124.plesk.page --without-reverse
+   239276 18:58:50 root) /opt/psa/admin/bin/dnsmng --update sweet-sutherland.13-126-233-124.plesk.page --without-reverse
+      239276 18:58:50 root) /usr/sbin/named -v
+      239276 18:58:50 root) /bin/bash /opt/psa/admin/sbin/pleskrc named reload
+      239276 18:58:50 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/pleskrc named reload PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/pleskrc named reload
+      239276 18:58:50 root) /bin/bash -hB /opt/psa/admin/sbin/pleskrc named reload
+         239276 18:58:50 root) basename /opt/psa/admin/sbin/pleskrc
+            239276 18:58:50 root) cat /var/lock/plesk-target-version
+         239276 18:58:50 root) awk { print $1 } /opt/psa/version
+         239276 18:58:50 root) awk { print $1 } /opt/psa/version
+         239276 18:58:50 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+            239276 18:58:50 root) dirname /var/log/plesk/rc_actions.log
+         239276 18:58:50 root) stat -c %U:%G 0%a /var/log/plesk/rc_actions.log
+         239276 18:58:50 root) date 
+            239276 18:58:50 root) awk -F: {print $3}
+            239276 18:58:50 root) getent passwd bind
+            239276 18:58:50 root) awk -F: {print $3}
+            239276 18:58:50 root) getent group bind
+         239276 18:58:50 root) /bin/systemctl cat named.service
+         239276 18:58:50 root) /bin/systemctl cat named.service
+         239276 18:58:50 root) /bin/systemctl is-active named.service
+         239276 18:58:50 root) /bin/systemctl reload-or-try-restart named.service
+   239315 18:58:50 psaadm) /opt/psa/admin/bin/dnsmng --update sweet-sutherland.13-126-233-124.plesk.page --without-reverse
+   239315 18:58:50 root) /opt/psa/admin/bin/dnsmng --update sweet-sutherland.13-126-233-124.plesk.page --without-reverse
+      239315 18:58:51 root) /usr/sbin/named -v
+      239315 18:58:51 root) /bin/bash /opt/psa/admin/sbin/pleskrc named reload
+      239315 18:58:51 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/pleskrc named reload PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/pleskrc named reload
+      239315 18:58:51 root) /bin/bash -hB /opt/psa/admin/sbin/pleskrc named reload
+         239315 18:58:51 root) basename /opt/psa/admin/sbin/pleskrc
+            239315 18:58:51 root) cat /var/lock/plesk-target-version
+         239315 18:58:51 root) awk { print $1 } /opt/psa/version
+         239315 18:58:51 root) awk { print $1 } /opt/psa/version
+         239315 18:58:51 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+            239315 18:58:51 root) dirname /var/log/plesk/rc_actions.log
+         239315 18:58:51 root) stat -c %U:%G 0%a /var/log/plesk/rc_actions.log
+         239315 18:58:51 root) date 
+            239315 18:58:51 root) getent passwd bind
+            239315 18:58:51 root) awk -F: {print $3}
+            239315 18:58:51 root) awk -F: {print $3}
+            239315 18:58:51 root) getent group bind
+         239315 18:58:51 root) /bin/systemctl cat named.service
+         239315 18:58:51 root) /bin/systemctl cat named.service
+         239315 18:58:51 root) /bin/systemctl is-active named.service
+         239315 18:58:51 root) /bin/systemctl reload-or-try-restart named.service
+   239371 18:58:52 psaadm) /opt/psa/admin/bin/phpinimng --type fpm --service-name plesk-php74-fpm --poold /opt/plesk/php/7.4/etc/php-fpm.d --restart
+   239371 18:58:52 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/phpinimng --type fpm --service-name plesk-php74-fpm --poold /opt/plesk/php/7.4/etc/php-fpm.d --restart
+   239371 18:58:52 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/phpinimng --type fpm --service-name plesk-php74-fpm --poold /opt/plesk/php/7.4/etc/php-fpm.d --restart
+239383 18:58:52 psaadm) sh -c /opt/psa/admin/bin/php -f '/opt/psa/admin/plib/api-cli/extension.php' --  '--call' 'platform360' '--connection-info' '-format' 'json'
+   239383 18:58:52 psaadm) /opt/psa/admin/bin/php -f /opt/psa/admin/plib/api-cli/extension.php -- --call platform360 --connection-info -format json
+   239383 18:58:52 psaadm) /usr/bin/sw-engine -c /opt/psa/admin/conf/php.ini -f /opt/psa/admin/plib/api-cli/extension.php -- --call platform360 --connection-info -format json
+      239371 18:58:52 root) uname -p
+      239371 18:58:53 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+         239371 18:58:54 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/modules/advisor/cache' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache --allow-root
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/modules/advisor/cache/rating' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/rating --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/rating --allow-root
+      239371 18:58:54 root) uname -rs
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/modules/advisor/cache/rating/' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/rating/ --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/rating/ --allow-root
+      239371 18:58:54 root) /bin/systemctl is-active plesk-php74-fpm.service
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file' '-L' '/opt/psa/var/modules/advisor/cache/rating/' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/rating/ --allow-root
+      239371 18:58:54 root) /bin/systemctl is-enabled plesk-php74-fpm.service
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/rating/ --allow-root
+239411 18:58:54 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/certificates/scfEN6eIV' '--allow-root'
+   239411 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/certificates/scfEN6eIV --allow-root
+      239400 18:58:54 root) file -L /opt/psa/var/modules/advisor/cache/rating/
+   239411 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/certificates/scfEN6eIV --allow-root
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file' '-L' '/opt/psa/var/modules/advisor/cache/rating/' '--allow-root'
+      239371 18:58:54 root) /bin/bash /opt/psa/admin/sbin/register_service --enable plesk-php74-fpm --with-resource-controller
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/rating/ --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/rating/ --allow-root
+      239371 18:58:54 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/register_service --enable plesk-php74-fpm --with-resource-controller PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/register_service --enable plesk-php74-fpm --with-resource-controller
+      239371 18:58:54 root) /bin/bash -hB /opt/psa/admin/sbin/register_service --enable plesk-php74-fpm --with-resource-controller
+      239400 18:58:54 root) file -L /opt/psa/var/modules/advisor/cache/rating/
+239419 18:58:54 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/certificates/scfEN6eIV' '--allow-root'
+   239419 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/certificates/scfEN6eIV --allow-root
+   239419 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/certificates/scfEN6eIV --allow-root
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'rm' '-rf' '/opt/psa/var/modules/advisor/cache/rating' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root rm -rf /opt/psa/var/modules/advisor/cache/rating --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root rm -rf /opt/psa/var/modules/advisor/cache/rating --allow-root
+         239371 18:58:54 root) basename /opt/psa/admin/sbin/register_service
+            239371 18:58:54 root) cat /var/lock/plesk-target-version
+         239371 18:58:54 root) awk { print $1 } /opt/psa/version
+      239400 18:58:54 root) rm -rf /opt/psa/var/modules/advisor/cache/rating
+         239371 18:58:54 root) awk { print $1 } /opt/psa/version
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'list' 'both' '/opt/psa/var/modules/advisor/cache' '--in-bytes' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root list both /opt/psa/var/modules/advisor/cache --in-bytes --allow-root
+         239371 18:58:54 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root list both /opt/psa/var/modules/advisor/cache --in-bytes --allow-root
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/modules/advisor/cache' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache --allow-root
+            239371 18:58:54 root) dirname /var/log/plesk/rc_actions.log
+         239371 18:58:54 root) stat -c %U:%G 0%a /var/log/plesk/rc_actions.log
+         239371 18:58:54 root) date 
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/modules/advisor/cache/api-cli' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/api-cli --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/api-cli --allow-root
+         239371 18:58:54 root) /bin/systemctl cat plesk-php74-fpm.service
+            239371 18:58:54 root) systemctl show plesk-php74-fpm.service
+            239371 18:58:54 root) sed -n -e s/FragmentPath=//p
+239400 18:58:54 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/opt/psa/var/modules/advisor/cache/api-cli/' '--allow-root'
+   239400 18:58:54 psaadm) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/api-cli/ --allow-root
+   239400 18:58:54 root) /opt/psa/admin/bin/filemng root file_exists /opt/psa/var/modules/advisor/cache/api-cli/ --allow-root
+            239371 18:58:54 root) sed s|/lib/systemd/system/plesk-php74-fpm.service.d/respawn.conf||
+            239371 18:58:54 root) sed -n -e s/DropInPaths=//p
+            239371 18:58:54 root) systemctl show plesk-php74-fpm.service
+239400 18:58:55 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file' '-L' '/opt/psa/var/modules/advisor/cache/api-cli/' '--allow-root'
+   239400 18:58:55 psaadm) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/api-cli/ --allow-root
+   239400 18:58:55 root) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/api-cli/ --allow-root
+         239371 18:58:55 root) grep -q ^Restart= /lib/systemd/system/plesk-php74-fpm.service
+         239371 18:58:55 root) sed -n -e s/^\.include\s//p /lib/systemd/system/plesk-php74-fpm.service
+         239371 18:58:55 root) grep -q ^Type=oneshot /lib/systemd/system/plesk-php74-fpm.service
+         239371 18:58:55 root) sed -n -e s/^\.include\s//p /lib/systemd/system/plesk-php74-fpm.service
+         239371 18:58:55 root) grep -q ^Restart= /usr/lib/systemd/system/plesk-php74-fpm.service.d/limit_nofile.conf
+      239400 18:58:55 root) file -L /opt/psa/var/modules/advisor/cache/api-cli/
+         239371 18:58:55 root) sed -n -e s/^\.include\s//p /usr/lib/systemd/system/plesk-php74-fpm.service.d/limit_nofile.conf
+         239371 18:58:55 root) grep -q ^Type=oneshot /usr/lib/systemd/system/plesk-php74-fpm.service.d/limit_nofile.conf
+239400 18:58:55 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file' '-L' '/opt/psa/var/modules/advisor/cache/api-cli/' '--allow-root'
+   239400 18:58:55 psaadm) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/api-cli/ --allow-root
+         239371 18:58:55 root) sed -n -e s/^\.include\s//p /usr/lib/systemd/system/plesk-php74-fpm.service.d/limit_nofile.conf
+   239400 18:58:55 root) /opt/psa/admin/bin/filemng root file -L /opt/psa/var/modules/advisor/cache/api-cli/ --allow-root
+         239371 18:58:55 root) rm -f /lib/systemd/system/plesk-php74-fpm.service.d/respawn.conf
+         239371 18:58:55 root) dirname /lib/systemd/system/plesk-php74-fpm.service.d/respawn.conf
+         239371 18:58:55 root) mkdir -p /lib/systemd/system/plesk-php74-fpm.service.d
+         239371 18:58:55 root) cat 
+         239371 18:58:55 root) /bin/systemctl enable plesk-php74-fpm.service
+      239400 18:58:55 root) file -L /opt/psa/var/modules/advisor/cache/api-cli/
+239400 18:58:55 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'rm' '-rf' '/opt/psa/var/modules/advisor/cache/api-cli' '--allow-root'
+   239400 18:58:55 psaadm) /opt/psa/admin/bin/filemng root rm -rf /opt/psa/var/modules/advisor/cache/api-cli --allow-root
+   239400 18:58:55 root) /opt/psa/admin/bin/filemng root rm -rf /opt/psa/var/modules/advisor/cache/api-cli --allow-root
+239383 18:58:55 psaadm) sh -c '/opt/psa/admin/bin/f2bmng' '--status'
+   239383 18:58:55 psaadm) /opt/psa/admin/bin/f2bmng --status
+   239383 18:58:55 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/f2bmng --status
+      239400 18:58:55 root) rm -rf /opt/psa/var/modules/advisor/cache/api-cli
+   239383 18:58:55 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/f2bmng --status
+239400 18:58:55 psaadm) sh -c '/opt/psa/admin/bin/filemng' 'root' 'list' 'both' '/opt/psa/var/modules/advisor/cache' '--in-bytes' '--allow-root'
+   239400 18:58:55 psaadm) /opt/psa/admin/bin/filemng root list both /opt/psa/var/modules/advisor/cache --in-bytes --allow-root
+   239400 18:58:55 root) /opt/psa/admin/bin/filemng root list both /opt/psa/var/modules/advisor/cache --in-bytes --allow-root
+            239086 18:58:55 root) cd /var/www/vhosts
+            239086 18:58:55 root) cd /var/www/vhosts
+            239086 18:58:55 root) cd /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/logs
+         239086 18:58:55 root) stat -c %i .
+         239086 18:58:55 root) stat -c %i /var/www/vhosts/sweet-sutherland.13-126-233-124.plesk.page/logs
+         239086 18:58:55 root) ln -Tnf /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/logs/error_log ./error_log
+         239086 18:58:55 root) find . -mindepth 1 -maxdepth 1 -type f -links 1 -user root -group root -delete
+239419 18:58:56 root) sh -c /opt/psa/admin/bin/php -f '/opt/psa/admin/plib/api-cli/extension.php' --  '--call' 'sslit' '--common-challenge-dir' '-info' '-format' 'json'
+   239419 18:58:56 root) /opt/psa/admin/bin/php -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+   239419 18:58:56 root) /usr/bin/sw-engine -c /opt/psa/admin/conf/php.ini -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+         239371 18:58:56 root) /opt/psa/bin/py3-python /opt/psa/admin/sbin/register_service_db -a plesk-php74-fpm --with-resource-controller
+         239371 18:58:56 root) /usr/bin/python3 -Estt /opt/psa/admin/sbin/register_service_db -a plesk-php74-fpm --with-resource-controller
+239411 18:58:56 root) sh -c /opt/psa/admin/bin/php -f '/opt/psa/admin/plib/api-cli/extension.php' --  '--call' 'sslit' '--common-challenge-dir' '-info' '-format' 'json'
+   239411 18:58:56 root) /opt/psa/admin/bin/php -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+   239411 18:58:56 root) /usr/bin/sw-engine -c /opt/psa/admin/conf/php.ini -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+      239383 18:58:57 root) uname -p
+            239371 18:58:57 root) uname -p
+      239383 18:58:57 root) /usr/bin/python3 -Es /usr/bin/lsb_release -a
+            239371 18:58:58 root) /usr/bin/python3 -Es /bin/lsb_release -a
+         239383 18:58:58 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+               239371 18:58:58 root) dpkg-query -f ${Version} ${Provides}
+ -W lsb-core lsb-cxx lsb-graphics lsb-desktop lsb-languages lsb-multimedia lsb-printing lsb-security
+      239383 18:58:58 root) uname -rs
+            239371 18:58:58 root) uname -rs
+      239383 18:58:58 root) /bin/systemctl is-active fail2ban.service
+      239371 18:58:58 root) /bin/systemctl start plesk-php74-fpm.service
+239383 18:58:58 psaadm) sh -c /opt/psa/admin/bin/php -f '/opt/psa/admin/plib/api-cli/extension.php' --  '--call' 'platform360' '--connection-info' '-format' 'json'
+   239383 18:58:58 psaadm) /opt/psa/admin/bin/php -f /opt/psa/admin/plib/api-cli/extension.php -- --call platform360 --connection-info -format json
+   239383 18:58:58 psaadm) /usr/bin/sw-engine -c /opt/psa/admin/conf/php.ini -f /opt/psa/admin/plib/api-cli/extension.php -- --call platform360 --connection-info -format json
+239411 18:58:58 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost.conf' '--allow-root'
+   239411 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost.conf --allow-root
+   239411 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost.conf --allow-root
+239419 18:58:58 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost.conf' '--allow-root'
+   239419 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost.conf --allow-root
+   239419 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost.conf --allow-root
+239411 18:58:58 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_ssl.conf' '--allow-root'
+   239411 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_ssl.conf --allow-root
+   239411 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_ssl.conf --allow-root
+239419 18:58:58 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_ssl.conf' '--allow-root'
+   239419 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_ssl.conf --allow-root
+   239419 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_ssl.conf --allow-root
+239411 18:58:58 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_nginx.conf' '--allow-root'
+   239411 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_nginx.conf --allow-root
+   239411 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_nginx.conf --allow-root
+239419 18:58:58 root) sh -c '/opt/psa/admin/bin/filemng' 'root' 'file_exists' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_nginx.conf' '--allow-root'
+   239419 18:58:58 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_nginx.conf --allow-root
+   239419 18:58:59 root) /opt/psa/admin/bin/filemng root file_exists /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/vhost_nginx.conf --allow-root
+239411 18:58:59 root) sh -c /opt/psa/admin/bin/php -f '/opt/psa/admin/plib/api-cli/extension.php' --  '--call' 'sslit' '--common-challenge-dir' '-info' '-format' 'json'
+   239411 18:58:59 root) /opt/psa/admin/bin/php -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+239419 18:58:59 root) sh -c /opt/psa/admin/bin/php -f '/opt/psa/admin/plib/api-cli/extension.php' --  '--call' 'sslit' '--common-challenge-dir' '-info' '-format' 'json'
+   239419 18:58:59 root) /opt/psa/admin/bin/php -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+   239419 18:58:59 root) /usr/bin/sw-engine -c /opt/psa/admin/conf/php.ini -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+   239411 18:58:59 root) /usr/bin/sw-engine -c /opt/psa/admin/conf/php.ini -f /opt/psa/admin/plib/api-cli/extension.php -- --call sslit --common-challenge-dir -info -format json
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-b' '/etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf'
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -b /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-b' '/etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -b /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -b /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -b /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -b /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -b /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-w' '/etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf'
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-w' '/etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -w /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -w /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -w /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -w /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -w /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -w /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+      239419 18:59:00 root) dirname /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+      239411 18:59:00 root) dirname /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+      239411 18:59:00 root) mktemp /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.XXXXXX
+      239419 18:59:00 root) mktemp /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.XXXXXX
+      239419 18:59:00 root) chown root:nginx /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.mMLBzn
+      239411 18:59:00 root) chown root:www-data /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.kMX4nk
+      239411 18:59:00 root) chmod 600 /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.kMX4nk
+      239419 18:59:00 root) chmod 600 /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.mMLBzn
+      239411 18:59:00 root) cat 
+      239419 18:59:00 root) cat 
+      239419 18:59:00 root) mv -f /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.mMLBzn /etc/nginx/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+      239411 18:59:00 root) mv -f /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf.kMX4nk /etc/apache2/plesk.conf.d/webmails/sweet-sutherland.13-126-233-124.plesk.page_webmail.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-b' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf'
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-b' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf'
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-w' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf'
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-w' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+      239411 18:59:00 root) dirname /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+      239411 18:59:00 root) mktemp /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf.XXXXXX
+      239419 18:59:00 root) dirname /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+      239419 18:59:00 root) mktemp /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf.XXXXXX
+      239419 18:59:00 root) chown root:nginx /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf.dCpWuk
+      239411 18:59:00 root) chown root:www-data /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf.DMV3Q5
+      239411 18:59:00 root) chmod 600 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf.DMV3Q5
+      239411 18:59:00 root) cat 
+      239419 18:59:00 root) chmod 600 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf.dCpWuk
+      239419 18:59:00 root) cat 
+      239419 18:59:00 root) mv -f /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf.dCpWuk /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/modsecurity_nginx.conf
+      239411 18:59:00 root) mv -f /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf.DMV3Q5 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-b' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf'
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-l' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf:/etc/apache2/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -l /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf:/etc/apache2/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -l /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf:/etc/apache2/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -b /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -l /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf:/etc/apache2/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+      239411 18:59:00 root) grep -q :
+      239411 18:59:00 root) dirname /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+      239411 18:59:00 root) dirname /etc/apache2/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-w' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+      239411 18:59:00 root) basename /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf
+        239411 18:59:00 root) cd /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf
+      239411 18:59:00 root) ln -snfT httpd.conf last_httpd.conf
+        239411 18:59:00 root) cd /opt/psa/tmp
+      239411 18:59:00 root) ln -snfT /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/httpd.conf /etc/apache2/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -w /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+      239419 18:59:00 root) dirname /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-w' '/etc/apache2/conf-enabled/zz010_psa_httpd.conf'
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -w /etc/apache2/conf-enabled/zz010_psa_httpd.conf
+      239419 18:59:00 root) mktemp /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf.XXXXXX
+      239419 18:59:00 root) chown root:nginx /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf.gSnQKI
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -w /etc/apache2/conf-enabled/zz010_psa_httpd.conf
+      239419 18:59:00 root) chmod 600 /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf.gSnQKI
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -w /etc/apache2/conf-enabled/zz010_psa_httpd.conf
+      239419 18:59:00 root) cat 
+      239419 18:59:00 root) mv -f /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf.gSnQKI /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+      239411 18:59:00 root) dirname /etc/apache2/conf-enabled/zz010_psa_httpd.conf
+      239411 18:59:00 root) mktemp /etc/apache2/conf-enabled/zz010_psa_httpd.conf.XXXXXX
+      239411 18:59:00 root) chown root:www-data /etc/apache2/conf-enabled/zz010_psa_httpd.conf.wK5BoN
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-l' '/var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf:/etc/nginx/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf'
+      239411 18:59:00 root) chmod 600 /etc/apache2/conf-enabled/zz010_psa_httpd.conf.wK5BoN
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -l /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf:/etc/nginx/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+      239411 18:59:00 root) cat 
+      239411 18:59:00 root) mv -f /etc/apache2/conf-enabled/zz010_psa_httpd.conf.wK5BoN /etc/apache2/conf-enabled/zz010_psa_httpd.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -l /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf:/etc/nginx/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -l /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf:/etc/nginx/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+239411 18:59:00 root) sh -c '/opt/psa/admin/bin/apache-config' '-t'
+      239419 18:59:00 root) grep -q :
+   239411 18:59:00 root) /opt/psa/admin/bin/apache-config -t
+      239419 18:59:00 root) dirname /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+   239411 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/apache-config -t
+   239411 18:59:00 root) bash /opt/psa/admin/sbin/apache-config -t
+      239419 18:59:00 root) dirname /etc/nginx/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+      239419 18:59:00 root) basename /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf
+        239419 18:59:00 root) cd /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf
+      239419 18:59:00 root) ln -snfT nginx.conf last_nginx.conf
+        239419 18:59:00 root) cd /opt/psa/tmp
+      239419 18:59:00 root) ln -snfT /var/www/vhosts/system/sweet-sutherland.13-126-233-124.plesk.page/conf/nginx.conf /etc/nginx/plesk.conf.d/vhosts/sweet-sutherland.13-126-233-124.plesk.page.conf
+      239411 18:59:00 root) /bin/sh /usr/sbin/apache2ctl -t
+         239411 18:59:00 root) id -u
+         239411 18:59:00 root) /usr/sbin/apache2 -t
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-w' '/etc/nginx/conf.d/zz010_psa_nginx.conf'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -w /etc/nginx/conf.d/zz010_psa_nginx.conf
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -w /etc/nginx/conf.d/zz010_psa_nginx.conf
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -w /etc/nginx/conf.d/zz010_psa_nginx.conf
+      239419 18:59:00 root) dirname /etc/nginx/conf.d/zz010_psa_nginx.conf
+      239419 18:59:00 root) mktemp /etc/nginx/conf.d/zz010_psa_nginx.conf.XXXXXX
+      239419 18:59:00 root) chown root:nginx /etc/nginx/conf.d/zz010_psa_nginx.conf.BG4ZFp
+      239419 18:59:00 root) chmod 600 /etc/nginx/conf.d/zz010_psa_nginx.conf.BG4ZFp
+      239419 18:59:00 root) cat 
+      239419 18:59:00 root) mv -f /etc/nginx/conf.d/zz010_psa_nginx.conf.BG4ZFp /etc/nginx/conf.d/zz010_psa_nginx.conf
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx-config' '-t'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx-config -t
+   239419 18:59:00 root) /usr/bin/env bash /opt/psa/admin/sbin/nginx-config -t
+   239419 18:59:00 root) bash /opt/psa/admin/sbin/nginx-config -t
+      239419 18:59:00 root) grep -q could not build the server_names_hash
+      239419 18:59:00 root) grep -q could not build optimal server_names_hash
+239419 18:59:00 root) sh -c '/opt/psa/admin/bin/nginx_control' '--reload'
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx_control --reload
+   239419 18:59:00 root) /opt/psa/admin/bin/nginx_control --reload
+      239419 18:59:00 root) /bin/bash /opt/psa/admin/sbin/pleskrc nginx try-reload
+      239419 18:59:00 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/pleskrc nginx try-reload PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/pleskrc nginx try-reload
+      239419 18:59:00 root) /bin/bash -hB /opt/psa/admin/sbin/pleskrc nginx try-reload
+         239419 18:59:00 root) basename /opt/psa/admin/sbin/pleskrc
+         239419 18:59:00 root) awk { print $1 } /opt/psa/version
+         239419 18:59:00 root) awk { print $1 } /opt/psa/version
+         239419 18:59:00 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+         239419 18:59:00 root) stat -c %U:%G 0%a /var/log/plesk/rc_actions.log
+         239419 18:59:00 root) date 
+         239419 18:59:00 root) /bin/systemctl cat nginx.service
+         239419 18:59:00 root) /bin/systemctl cat nginx.service
+         239419 18:59:00 root) /bin/systemctl is-active nginx.service
+         239419 18:59:00 root) /bin/systemctl reload-or-try-restart nginx.service
+239411 18:59:01 root) sh -c '/opt/psa/admin/bin/apache_control_adapter' '--restart' '--restart-interval' '0' '--http-port' '7080' '--https-port' '7081' '--graceful'
+   239411 18:59:01 root) /opt/psa/admin/bin/apache_control_adapter --restart --restart-interval 0 --http-port 7080 --https-port 7081 --graceful
+   239411 18:59:01 root) /opt/psa/admin/bin/apache_control_adapter --restart --restart-interval 0 --http-port 7080 --https-port 7081 --graceful
+      239411 18:59:01 root) /bin/bash -c source /etc/apache2/envvars; echo -n $APACHE_PID_FILE
+      239411 18:59:01 root) /bin/bash /opt/psa/admin/sbin/pleskrc apache graceful
+      239411 18:59:01 root) /usr/bin/env -i PLESK_INTERNAL_PHP_EXEC=1 PLESK_SCRIPT_COMMAND_LINE=/opt/psa/admin/sbin/pleskrc apache graceful PLESK_INSTALLER_ENV_CLEANED=1 /bin/bash -hB /opt/psa/admin/sbin/pleskrc apache graceful
+      239411 18:59:01 root) /bin/bash -hB /opt/psa/admin/sbin/pleskrc apache graceful
+         239411 18:59:01 root) basename /opt/psa/admin/sbin/pleskrc
+         239411 18:59:01 root) awk { print $1 } /opt/psa/version
+         239411 18:59:01 root) awk { print $1 } /opt/psa/version
+         239411 18:59:01 root) perl -e undef $/; $_=<>; s/#.*$//gm;
+		         s/^\s*(\S+)\s*/$1=/mg;
+		         print /etc/psa/psa.conf
+         239411 18:59:01 root) stat -c %U:%G 0%a /var/log/plesk/rc_actions.log
+         239411 18:59:01 root) date 
+         239411 18:59:01 root) dirname /usr/lib/apache2/suexec
+         239411 18:59:01 root) basename /usr/lib/apache2/suexec
+         239411 18:59:01 root) /bin/systemctl cat apache2.service
+         239411 18:59:01 root) /bin/systemctl reload-or-try-restart apache2.service
+      239411 18:59:02 root) /bin/bash -c source /etc/apache2/envvars; echo -n $APACHE_PID_FILE
+[0m

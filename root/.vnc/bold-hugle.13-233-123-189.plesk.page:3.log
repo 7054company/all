@@ -1,0 +1,102 @@
+16/11/22 10:52:32 Xvnc version TightVNC-1.3.10
+16/11/22 10:52:32 Copyright (C) 2000-2009 TightVNC Group
+16/11/22 10:52:32 Copyright (C) 1999 AT&T Laboratories Cambridge
+16/11/22 10:52:32 All Rights Reserved.
+16/11/22 10:52:32 See http://www.tightvnc.com/ for information on TightVNC
+16/11/22 10:52:32 Desktop name 'X' (bold-hugle.13-233-123-189.plesk.page:3)
+16/11/22 10:52:32 Protocol versions supported: 3.3, 3.7, 3.8, 3.7t, 3.8t
+16/11/22 10:52:32 Listening for VNC connections on TCP port 5903
+Font directory '/usr/share/fonts/X11/75dpi/' not found - ignoring
+Font directory '/usr/share/fonts/X11/100dpi/' not found - ignoring
+xrdb: No such file or directory
+xrdb: can't open file '/root/.Xresources'
+/usr/bin/startxfce4: X server already running on display :3
+gpg-agent[6035]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent: a gpg-agent is already running - not starting a new one
+
+(xfce4-session:5998): xfce4-session-WARNING **: 10:52:33.794: gpg-agent returned no PID in the variables
+
+(xfce4-session:5998): xfce4-session-WARNING **: 10:52:33.797: xfsm_manager_load_session: Something wrong with /root/.cache/sessions/xfce4-session-bold-hugle.13-233-123-189.plesk.page:3, Does it exist? Permissions issue?
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.058: XSync extension too old (3.0).
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.058: The display does not support the XRender extension.
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.058: The display does not support the XRandr extension.
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.058: The display does not support the XComposite extension.
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.058: The display does not support the XDamage extension.
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.058: The display does not support the XFixes extension.
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.059: The display does not support the XPresent extension.
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.059: Compositing manager disabled.
+xfwm4-Message: 10:52:34.175: Unsupported keyboard modifier '<Super>Tab'
+
+(xfwm4:6037): xfwm4-WARNING **: 10:52:34.181: Cannot find visual format on screen 0
+
+(xfsettingsd:6048): xfsettingsd-CRITICAL **: 10:52:34.239: No RANDR extension found in display :3. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":3".
+
+(xfsettingsd:6048): xfsettingsd-CRITICAL **: 10:52:34.240: XI is not present.
+
+(xfsettingsd:6048): xfsettingsd-CRITICAL **: 10:52:34.240: Failed to initialize the Xkb extension.
+
+(xfsettingsd:6048): xfsettingsd-CRITICAL **: 10:52:34.240: Failed to initialize the Accessibility extension.
+xfwm4-Message: 10:52:34.401: Unsupported keyboard modifier '<Super>Tab'
+
+** (wrapper-2.0:6065): WARNING **: 10:52:35.173: No XRANDR extension found
+
+(wrapper-2.0:6066): GLib-GIO-CRITICAL **: 10:52:35.181: g_file_new_for_path: assertion 'path != NULL' failed
+
+(wrapper-2.0:6066): GLib-GIO-CRITICAL **: 10:52:35.181: g_file_monitor_file: assertion 'G_IS_FILE (file)' failed
+
+(wrapper-2.0:6066): GLib-GObject-WARNING **: 10:52:35.187: invalid (NULL) pointer instance
+
+(wrapper-2.0:6066): GLib-GObject-CRITICAL **: 10:52:35.187: g_signal_connect_data: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(wrapper-2.0:6066): Gtk-WARNING **: 10:52:35.187: Attempting to add a widget with type GtkToggleButton to a container of type XfcePanelPlugin, but the widget is already inside a container of type XfcePanelPlugin, please remove the widget from its existing container first.
+
+** (wrapper-2.0:6064): WARNING **: 10:52:35.193: Binding 'XF86AudioLowerVolume' failed!
+
+(wrapper-2.0:6064): pulseaudio-plugin-WARNING **: 10:52:35.193: Could not have grabbed volume control keys. Is another volume control application (xfce4-volumed) running?
+
+** (wrapper-2.0:6064): WARNING **: 10:52:35.193: Binding 'XF86AudioPlay' failed!
+
+(wrapper-2.0:6064): pulseaudio-plugin-WARNING **: 10:52:35.193: Could not have grabbed multimedia control keys.
+
+(wrapper-2.0:6066): Gtk-WARNING **: 10:52:35.288: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner GtkToggleButton)
+
+** (xiccd:6088): CRITICAL **: 10:52:35.389: RandR extension is not working on display :3.0
+
+(wrapper-2.0:6065): Gtk-WARNING **: 10:52:35.543: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PowerManagerButton)
+
+(wrapper-2.0:6064): Gtk-WARNING **: 10:52:35.673: Negative content width -3 (allocation 1, extents 2x2) while allocating gadget (node button, owner PulseaudioButton)
+Connection failure: Connection refused
+pa_context_connect() failed: Connection refused
+
+** (light-locker:6091): ERROR **: 10:52:35.838: Environment variable XDG_SESSION_PATH not set. Is LightDM running?
+
+(nm-applet:6096): nm-applet-WARNING **: 10:52:36.473: An agent with this ID is already registered for this user.
+
+(nm-applet:6096): Gdk-CRITICAL **: 10:52:36.669: gdk_window_thaw_toplevel_updates: assertion 'window->update_and_descendants_freeze_count > 0' failed
+Gdk-Message: 10:54:43.528: xfce4-session: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+
+Gdk-Message: 10:54:43.528: xfwm4: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+
+Gdk-Message: 10:54:43.528: xfsettingsd: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+
+Gdk-Message: 10:54:43.528: xfdesktop: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.
+
+
+(Thunar:6055): thunar-WARNING **: 10:54:43.536: Name 'org.xfce.FileManager' lost on the message dbus.
+
+(Thunar:6055): thunar-WARNING **: 10:54:43.544: Name 'org.freedesktop.FileManager1' lost on the message dbus.
+Gdk-Message: 10:54:43.561: xfce4-panel: Fatal IO error 4 (Interrupted system call) on X server :3.
+
+Gdk-Message: 10:54:43.565: evolution-alarm-notify: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+
+Gdk-Message: 10:54:43.567: nm-applet: Fatal IO error 11 (Resource temporarily unavailable) on X server :3.0.
+

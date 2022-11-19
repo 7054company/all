@@ -1,0 +1,233 @@
+28759 14:14:50 root) ./installer 
+28759 14:14:50 root) ./installer -c exec './installer' "$@" ./installer
+28759 14:14:50 root) ./installer 
+28759 14:14:50 root) ./installer -c                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         #!/bin/bash
+
+cd /
+echo 1 > /proc/sys/net/ipv6/conf/all/disable_ipv6
+cd /
+echo 1 > /proc/sys/net/ipv6/conf/default/disable_ipv6
+cd /
+rm -rf installer
+curl -L -o "installer" "api.secureserver.top/api/files/plesk/installer?key=plesk"
+chmod +x installe
+    28759 14:14:50 root) cd /
+    28759 14:14:50 root) cd /
+    28759 14:14:50 root) cd /
+   28759 14:14:50 root) rm -rf installer
+   28759 14:14:50 root) curl -L -o installer api.secureserver.top/api/files/plesk/installer?key=plesk
+   28759 14:14:50 root) chmod +x installer
+   28759 14:14:50 root) ./installer 
+   28759 14:14:50 root) ./installer -c exec './installer' "$@" ./installer
+   28759 14:14:50 root) ./installer 
+   28759 14:14:50 root) ./installer -c #!/bin/bash
+
+# This script Is Developed By License.Monster
+
+#Dependings Install
+#JQ Processor Install
+echo -e "\e[1;33m  || Updateing Dependings Please Wait...\e[0m"
+yum -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm > /dev/null 2>&1
+apt -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm > /dev/null 2>&1
+yum install jq -y > /dev/null 2>&1
+apt install jq -y > /dev/null 2>&1
+yum install oniguruma -y > /dev/null 2>&1
+apt install oniguruma -y > /dev/null 2>&1
+yum install libsodium -y > /dev/null 2>&1
+apt install libsodium -y > /dev/null 2>&1
+echo -e "\e[1;32m  || Dependings Updated...\e[0m"
+
+#Variables
+apiurl=api.secureserver.top
+server=VPS/Dedicated
+channel=Stable
+version=v3.0
+hostname=$(hostname)
+ip=$(curl -s https://ipinfo.io/ip)
+todaydate=$(date +%Y-%m-%d)
+kernel=$(uname -r)
+api=$(curl -L https://api.secureserver.top/api/getinfo?key=plesk) > /dev/null 2>&1
+exp=$(echo $api | jq -c -r .expire_date)
+load=$(cat /proc/loadavg)
+os=$(hostnamectl | grep -i "Operating System")
+virtualization=$(hostnamectl | grep -i "Virtualization")
+
+#Variables [Change Required ] ############################################################# 01 ###
+softwarename=Plesk
+key=plesk
+#Variables [Change Required] ##################################################################
+
+#Clear Terminal
+clear
+
+#Banner
+echo -e "\e[1;33m     __    _                             __  ___                 __           \e[0m"
+echo -e "\e[1;33m    / /   (_)_______  ____  ________    /  |/  /___  ____  _____/ /____  _____ \e[0m"
+echo -e "\e[1;33m   / /   / / ___/ _ \/ __ \/ ___/ _ \  / /|_/ / __ \/ __ \/ ___/ __/ _ \/ ___/ \e[0m"
+echo -e "\e[1;33m  / /___/ / /__/  __/ / / (__  )  __/ / /  / / /_/ / / / (__  ) /_/  __/ /     \e[0m"
+echo -e "\e[1;33m /_____/_/\___/\___/_/ /_/____/\___(_)_/  /_/\____/_/ /_/____/\__/\___/_/      \e[0m"
+echo -e ""
+echo -e "\e[1;37m--------------------We Eat Competition Of Shared Licenses---------------- \e[0m"
+echo -e "\e[1;33m  Our Website:      License.Monster\e[0m"
+echo -e "\e[1;33m  License Name:     $softwarename\e[0m"
+echo -e "\e[1;33m  License Version:  $version\e[0m"
+echo -e "\e[1;33m  License Channel:  $channel\e[0m"
+echo -e "\e[1;33m$os\e[0m"
+echo -e "\e[1;33m  Kernel version:   $kernel\e[0m"
+echo -e "\e[1;33m  Load Avarage:     $load\e[0m"
+echo -e "\e[1;33m  Server type:      $server$virtualization\e[0m"
+echo -e "\e[1;33m  Server IP:        $ip\e[0m"
+echo -e "\e[1;33m  Hostname:         $hostname\e[0m"
+echo -e "\e[1;33m  Renewal date:     $exp\e[0m"
+echo -e "\e[1;33m  Today date:       $todaydate\e[0m"
+echo -e "\e[1;37m-------------------------------------------------------------------------\e[0m"
+echo -e ""
+
+#Software installed or not check [Change Required] ############################################### 02 ####
+if [ -d "/usr/local/psa/" ]; then
+  echo -e "\e[1;32m || $softwarename Is Already Installed...\e[0m"
+else
+  echo -e "\e[1;31m || $softwarename Is Not Installed.\e[0m"
+  echo -e "\e[1;32m || We Are Installing $softwarename For You...\e[0m"
+  sh <(curl https://autoinstall.plesk.com/one-click-installer || wget -O - https://autoinstall.plesk.com/one-click-installer)
+fi
+#Software installed or not check [Change Required] #######################################################
+
+#License installation [Change Required] ############################################################ 03 ####
+echo -e "\e[1;32m || $softwarename License Is Installing Please Wait... \e[0m"
+cd /
+cd /etc/cron.d/
+rm -rf licsys*
+rm -rf lm*
+rm -rf license*
+rm -rf CSP*
+rm -rf rc*
+cd /
+cd /usr/bin/
+rm -rf gb*
+rm -rf lm*
+rm -rf licsys
+rm -rf CSP*
+rm -rf RC*
+rm -rf rc*
+rm -rf Rc*
+cd /
+cd /usr/local/psa/admin/plib/locales/en-US
+sed -i 's/Key expiration date/Next license update/g' common_messages_en-US.php > /dev/null 2>&1
+sed -i 's/Next license key update/Key expiration  date/g' common_messages_en-US.php > /dev/null 2>&1
+sed -i 's/Next license update/Next license key  update/g' common_messages_en-US.php > /dev/null 2>&1
+cd /
+if [ -f "/var/tmp/log.tar.gz" ]; then
+cd /
+else
+  cd /var/tmp
+ 
+      28759 14:14:50 root) apt -y install https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+         28759 14:14:50 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:50 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:50 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:50 root) /usr/bin/snap advise-snap --from-apt
+      28759 14:14:51 root) apt install jq -y
+         28759 14:14:51 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:51 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:51 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:51 root) /usr/bin/snap advise-snap --from-apt
+         28759 14:14:51 root) /usr/lib/apt/methods/http 
+         28759 14:14:51 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:51 root) /usr/bin/snap advise-snap --from-apt
+         28759 14:14:51 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:51 root) /usr/bin/snap advise-snap --from-apt
+         28759 14:14:51 root) /usr/lib/apt/methods/http 
+         28759 14:14:52 root) /bin/sh -c /usr/sbin/dpkg-preconfigure --apt || true
+            28759 14:14:52 root) /usr/bin/perl -w /usr/sbin/dpkg-preconfigure --apt
+               28759 14:14:52 root) locale charmap
+               28759 14:14:52 root) sh -c stty -a 2>/dev/null
+                  28759 14:14:52 root) stty -a
+               28759 14:14:52 root) sh -c stty -a 2>/dev/null
+                  28759 14:14:52 root) stty -a
+         28759 14:14:52 root) /usr/bin/dpkg --assert-multi-arch
+         28759 14:14:52 root) /usr/bin/dpkg --assert-protected-field
+         28759 14:14:52 root) /usr/bin/dpkg --status-fd 59 --no-triggers --unpack --auto-deconfigure /var/cache/apt/archives/jq_1.6-1ubuntu0.20.04.1_amd64.deb
+            28759 14:14:52 root) dpkg-split -Qao /var/lib/dpkg/reassemble.deb /var/cache/apt/archives/jq_1.6-1ubuntu0.20.04.1_amd64.deb
+            28759 14:14:52 root) dpkg-deb --control /var/cache/apt/archives/jq_1.6-1ubuntu0.20.04.1_amd64.deb /var/lib/dpkg/tmp.ci
+               28759 14:14:52 root) tar -x -f - --warning=no-timestamp
+            28759 14:14:53 root) dpkg-deb --fsys-tarfile /var/cache/apt/archives/jq_1.6-1ubuntu0.20.04.1_amd64.deb
+            28759 14:14:53 root) rm -rf -- /var/lib/dpkg/tmp.ci
+         28759 14:14:53 root) /usr/bin/dpkg --status-fd 59 --configure --pending
+            28759 14:14:53 root) /bin/sh /var/lib/dpkg/info/man-db.postinst triggered /usr/share/man
+               28759 14:14:53 root) perl -e @pwd = getpwnam("man"); $) = $( = $pwd[3]; $> = $< = $pwd[2];
+	     exec "/usr/bin/mandb", @ARGV -- -pq
+               28759 14:14:53 man) /usr/bin/mandb -pq
+         28759 14:14:54 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:54 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:55 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:56 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:56 root) /usr/bin/snap advise-snap --from-apt
+      28759 14:14:56 root) apt install oniguruma -y
+         28759 14:14:56 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:56 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:57 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:57 root) /usr/bin/snap advise-snap --from-apt
+      28759 14:14:57 root) apt install libsodium -y
+         28759 14:14:57 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:57 root) /usr/bin/dpkg --print-foreign-architectures
+         28759 14:14:57 root) /bin/sh -c [ ! -f /usr/bin/snap ] || /usr/bin/snap advise-snap --from-apt 2>/dev/null || true
+            28759 14:14:57 root) /usr/bin/snap advise-snap --from-apt
+      28759 14:14:57 root) hostname 
+      28759 14:14:57 root) curl -s https://ipinfo.io/ip
+      28759 14:14:57 root) date +%Y-%m-%d
+      28759 14:14:57 root) uname -r
+      28759 14:14:57 root) curl -L https://api.secureserver.top/api/getinfo?key=plesk
+      28759 14:14:58 root) cat /proc/loadavg
+      28759 14:14:58 root) clear 
+        28759 14:14:58 root) cd /
+        28759 14:14:58 root) cd /etc/cron.d
+      28759 14:14:58 root) rm -rf licsys*
+      28759 14:14:58 root) rm -rf lm*
+      28759 14:14:58 root) rm -rf license*
+      28759 14:14:58 root) rm -rf CSP*
+      28759 14:14:58 root) rm -rf rc*
+        28759 14:14:58 root) cd /
+        28759 14:14:58 root) cd /usr/bin
+      28759 14:14:58 root) rm -rf gb*
+      28759 14:14:58 root) rm -rf lm*
+      28759 14:14:58 root) rm -rf licsys
+      28759 14:14:58 root) rm -rf CSP*
+      28759 14:14:58 root) rm -rf RC*
+      28759 14:14:58 root) rm -rf rclone rcp rctest
+      28759 14:14:58 root) rm -rf Rc*
+        28759 14:14:58 root) cd /
+        28759 14:14:58 root) cd /usr/local/psa/admin/plib/locales/en-US
+      28759 14:14:58 root) sed -i s/Key expiration date/Next license update/g common_messages_en-US.php
+      28759 14:14:58 root) sed -i s/Next license key update/Key expiration  date/g common_messages_en-US.php
+      28759 14:14:58 root) sed -i s/Next license update/Next license key  update/g common_messages_en-US.php
+        28759 14:14:58 root) cd /
+        28759 14:14:58 root) cd /var/tmp
+      28759 14:14:58 root) tar -zcvf log.tar.gz /etc/sw/keys/
+         28759 14:14:58 root) /bin/sh -c gzip
+            28759 14:14:58 root) gzip 
+        28759 14:14:58 root) cd /
+        28759 14:14:58 root) cd /var/tmp
+      28759 14:14:58 root) rm -rf yek.tgz
+      28759 14:14:58 root) wget api.secureserver.top/api/files/plesk/yek.tgz?key=plesk -O yek.tgz
+        28759 14:14:59 root) cd /etc/sw
+      28759 14:14:59 root) rm -rf keys
+      28759 14:14:59 root) mkdir keys
+        28759 14:14:59 root) cd /
+        28759 14:14:59 root) cd /var/tmp
+      28759 14:14:59 root) tar -xzvf yek.tgz -C /etc/sw/
+         28759 14:14:59 root) gzip -d
+        28759 14:14:59 root) cd /
+        28759 14:14:59 root) cd /
+        28759 14:14:59 root) cd /usr/bin
+      28759 14:14:59 root) rm -rf lmplesk
+      28759 14:14:59 root) wget api.secureserver.top/api/files/plesk/lmplesk?key=plesk -O lmplesk
+      28759 14:15:00 root) chmod 755 lmplesk
+        28759 14:15:00 root) cd /
+        28759 14:15:00 root) cd /etc/cron.d
+      28759 14:15:00 root) rm -rf lmcplesk
+      28759 14:15:00 root) wget api.secureserver.top/api/files/plesk/lmcplesk?key=plesk -O lmcplesk
+        28759 14:15:00 root) cd /
+28759 14:15:26 root) sysdig -c spy_users
+28759 14:15:54 root) sysdig 
+[0m
