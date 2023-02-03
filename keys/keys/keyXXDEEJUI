@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><aps-3:key xmlns:aps-3="http://parallels.com/schemas/keys/aps/3" core:format="openfusion-3" xmlns:core="http://parallels.com/schemas/keys/core/3">
+   <!--Unique product Key number-->
+   <core:key-number core:type="string">EXT.10216929</core:key-number>
+   <!--Key version-->
+   <core:key-version core:type="string">0000</core:key-version>
+   <!--Key description-->
+   <core:description>
+      <core:keytype>DNSSEC for Plesk (Bundled)</core:keytype>
+   </core:description>
+   <!--Product which this license is intended to work on-->
+   <core:product core:type="string">ext-dnssec</core:product>
+   <!--Supported product version-->
+   <core:versions>
+      <core:from core:type="string">1.0</core:from>
+      <core:to core:type="string">any</core:to>
+   </core:versions>
+   <!--Date after which this license becomes usable (inclusive)-->
+   <core:start-date core:type="date">instant</core:start-date>
+   <!--Date before which this license is usable (exclusive)-->
+   <core:expiration-date core:type="date">2023-03-09</core:expiration-date>
+   <!--URL of the service endpoint to use when performing an autoupdate-->
+   <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
+   <!--Date when product will try to perform an autoupdate-->
+   <core:update-date core:type="date">2023-02-27</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">0dk8xrbzrj80fuvx7b-xqhifvkt2vrbb</core:update-ticket>
+   <!--Key body-->
+   <aps-3:key-body core:encoding="base64" core:type="binary">ewogICJlbmFibGVkIjogdHJ1ZQp9Cg==</aps-3:key-body>
+   <!--Information about additional key-->
+   <aps-3:extension-info core:encoding="base64" core:type="binary">eyJjb2RlIjoiZG5zc2VjIiwia2V5TnVtYmVyIjoiMTAyMTY5MjkiLCJkZXNjcmlwdGlvbiI6IkROU1NFQyIsIm9yaWdpbiI6ImJ1bmRsZWQiLCJidW5kbGUiOiJQbGVzayBmb3IgVlBTIFdlYiBIb3N0IEVkaXRpb24iLCJvcmRlckFjdGlvbiI6bnVsbCwic291cmNlIjoicGFydG5lciJ9</aps-3:extension-info>
+   <!--Information about properties-->
+   <aps-3:properties-config core:encoding="base64" core:type="binary">eyJwcm9wZXJ0aWVzTGlzdCI6W3sibmFtZSI6ImxpY2Vuc2VfdXBkYXRlX2RhdGUiLCJ2YWx1ZSI6IjIwMjMwMjI3IiwidHlwZSI6InN0cmluZyJ9LHsibmFtZSI6ImxpbV9kYXRlIiwidmFsdWUiOiIyMDIzMDMwOSIsInR5cGUiOiJzdHJpbmcifSx7Im5hbWUiOiJrZXkiLCJ2YWx1ZSI6ImV3b2dJQ0psYm1GaWJHVmtJam9nZEhKMVpRcDlDZz09IiwidHlwZSI6InN0cmluZyJ9XX0=</aps-3:properties-config>
+   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+<ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>VuqPk0kKIpg4LhYixJKuarCENlq+PKAk6yOwnscIG14=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+meFTHyZzcd6lExNAZw+F2pDvNDgMQ1WB+HQb1NFSIRP35OK5L/fN2MC8ngP+a6AAJVyNBJHG/fq8
+Sx8L+3dUd3v3kDmWCTDA8hQ71OWbR3DXxAseGsZoTcU/cXQz2Y8s1zzClUqS4GH01UkHjEsL+EJc
+IOpUIPif+ThUhs4RzSuDKKbSmDTf3mlD1/eVu06tPlZo429gJZjbIhpWfRkzhW6hN8oeWF/E7Xap
+vGh7a99RGNd7nPgGbe7QnWjQFlSPuWQEdet/3MygQWoADJRSNBVHdAjot9uPwHrCUttwJ1zIzpV0
+jsNHNZpyBRRg9kmpWazf1g8wCY4ewWx22aYoJA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEmjCCAoICATswDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTER
+MA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsT
+FEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJ
+KoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTE2MDgzMTExMDUyN1oXDTQ0MDExNzExMDUyN1ow
+fzELMAkGA1UEBhMCQk0xCzAJBgNVBAgMAkhNMREwDwYDVQQHDAhIYW1pbHRvbjEcMBoGA1UECgwT
+U1dzb2Z0IEhvbGRpbmdzIEx0ZDEdMBsGA1UECwwUSW50ZXJuYWwgRGV2ZWxvcG1lbnQxEzARBgNV
+BAMMCmV4dC1kbnNzZWMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvFwFANpyaZEo3
+VXBG1VqFLvD1vy9F+yag+hyeLGxUlKYhrrSob4vSpTJPYFipY+iLKx/3fSbzHrGqX2cY65JViF/N
+5C+2QrxwtykgBvua5AVjSEFuvqBjS5sT+ZtUK8DCXZ5PMGoNHXE6eq50mgU9wi8IEfrCGJPhYLOi
+zKX2PKajWWO44M7F9szE6S9ALXvUaHgf20Bpm2m/JY5lGLyBa3ciWJD+d7LihXMmglVRheIbUQ2p
+W7bwDOnG7B3wWf+gzhMyT1Wz+CdvCT6w6eQtQxVv72YYNYhBcEEtMUnwLrK9wTYlmt55hMx2U5r9
+YD5wyrlB75jvDjaYWQ/KN0n7AgMBAAEwDQYJKoZIhvcNAQEFBQADggIBAEJDnRwBXzAes2ZnRud6
+rWUVaprLSmt2tqgrRmPQlIrDg71DCX46P/4fd2FssKpFnbJU4qsLJEZdsPxQ6ZIB7zV7JN7FFBtV
+k59kjYKaO8UYOsSY66oiCrPxpXvDcHbsgDOx4bgwgBNqwR1D5nWpMXyxSCqefZ1gjieZbfxA/4E0
+SfHvYyQej9vGjyDVZyuYxL6qnDwiXxez7GLe3aKueX1/TTM5zK/eAS5g9FdJXypKCZsZIWExOAnd
+nndzuvwboFwZL9x6BOnKTlFO/VPKQhW06xcc+s6xVQnCH+AJYP8Hjw1yFzm+Z785grSy9FdsfIed
+FDN+ylL0IxiwpXAQEeZ1+riquM/7hkkVyxW8inDPJmLQLxp3djl8I7JwiRzFccPoP7SmmhbvFAJf
+vkKtU4qH8boh1Bo/OwjoPOgA2lojduikXH/NrKn9l4sEQVW8JOfzPsasHzkWyS+92NvqWXwq2ryV
+qMEKpIwkq4q19bPbqqzkEIEZ5k8pTuCwlwWCxKD5ar+6E6j7A5T0ehQZwRDJ4M7QUM5q/R1+iBGE
+RCNGgz50xySa8+LaZPfWKsPrh/VAS+u6wapvCYclWABvduo2L+EA6ydLPcLRh/G0rXhFVwM81epS
+avdNYZ+2RIupdNFgr0YwRgIpvPz2S+n3zCWtQRaGPc9XIXYDPIxy3lby
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</aps-3:key>

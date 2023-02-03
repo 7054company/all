@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><aps-3:key xmlns:aps-3="http://parallels.com/schemas/keys/aps/3" core:format="openfusion-3" xmlns:core="http://parallels.com/schemas/keys/core/3">
+   <!--Unique product Key number-->
+   <core:key-number core:type="string">EXT.09851640</core:key-number>
+   <!--Key version-->
+   <core:key-version core:type="string">0000</core:key-version>
+   <!--Key description-->
+   <core:description>
+      <core:keytype>Docker Remote Node Management (Bundled)</core:keytype>
+   </core:description>
+   <!--Product which this license is intended to work on-->
+   <core:product core:type="string">ext-docker</core:product>
+   <!--Supported product version-->
+   <core:versions>
+      <core:from core:type="string">1.0</core:from>
+      <core:to core:type="string">any</core:to>
+   </core:versions>
+   <!--Date after which this license becomes usable (inclusive)-->
+   <core:start-date core:type="date">instant</core:start-date>
+   <!--Date before which this license is usable (exclusive)-->
+   <core:expiration-date core:type="date">2022-09-26</core:expiration-date>
+   <!--URL of the service endpoint to use when performing an autoupdate-->
+   <core:license-server-url core:type="string">https://ka.plesk.com/xmlrpc</core:license-server-url>
+   <!--Date when product will try to perform an autoupdate-->
+   <core:update-date core:type="date">never</core:update-date>
+   <core:update-ticket core:hidden="true" core:type="string">l48iquwtxuitqpxsfs-dax2itevu4mem</core:update-ticket>
+   <!--Key body-->
+   <aps-3:key-body core:encoding="base64" core:type="binary">ewogICJlbmFibGVkIjogdHJ1ZSwKICAicmVtb3RlLW5vZGVzIjogInVubGltaXRlZCIKfQo=</aps-3:key-body>
+   <!--Information about additional key-->
+   <aps-3:extension-info core:encoding="base64" core:type="binary">eyJjb2RlIjoiZG9ja2VyIiwia2V5TnVtYmVyIjoiOTg1MTY0MCIsImRlc2NyaXB0aW9uIjoiRG9ja2VyIFJlbW90ZSBOb2RlIE1hbmFnZW1lbnQiLCJvcmlnaW4iOiJidW5kbGVkIiwiYnVuZGxlIjoiUGxlc2sgV2ViIEhvc3QgRWRpdGlvbiAoMTQgRGF5cyBUcmlhbCkiLCJvcmRlckFjdGlvbiI6bnVsbCwic291cmNlIjoidHJpYWwifQ==</aps-3:extension-info>
+   <!--Information about properties-->
+   <aps-3:properties-config core:encoding="base64" core:type="binary">eyJwcm9wZXJ0aWVzTGlzdCI6W3sibmFtZSI6ImxpY2Vuc2VfdXBkYXRlX2RhdGUiLCJ2YWx1ZSI6IjIwMzUwMTAxIiwidHlwZSI6InN0cmluZyJ9LHsibmFtZSI6ImxpbV9kYXRlIiwidmFsdWUiOiIyMDIyMDkyNiIsInR5cGUiOiJzdHJpbmcifSx7Im5hbWUiOiJrZXkiLCJ2YWx1ZSI6ImV3b2dJQ0psYm1GaWJHVmtJam9nZEhKMVpTd0tJQ0FpY21WdGIzUmxMVzV2WkdWeklqb2dJblZ1YkdsdGFYUmxaQ0lLZlFvPSIsInR5cGUiOiJzdHJpbmcifV19</aps-3:properties-config>
+   <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://parallels.com/schemas/keys/core/3#canonicalize"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+<ds:Transform Algorithm="http://parallels.com/schemas/keys/core/3#transform"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>e3JnC9wirzOEAKFRNGroFO2Oxdkk8+5NGIX8qMnfWrY=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+TRLU646Xk3euHYPz4Yt0foUEcd9F+kqQ6ovPk9gDcYLNtnEkM+SmCU8dm8+ncDOTofIU4rmPmKaI
+WPdtke8nWzqS/RUvD+BR67oNjGzARpRQhOe64KdfoDaHjZeq51Wl2fnC8TUmjgPenPPuVGjZQTCp
+PZHcAW0/hD0iYPDBHTXBELhoQ9t/gMw8LuHQ0wPEScxcPpuq+ZLVqjjN20c1cl4c8cUKJsJq5j5Y
+RWBK9l+dJcNoava/ffKb6SFmJDNli8cgDi68x283olAQ+XJwlxgI1NzIbQdUk1aNMMaLSE/YLcfe
+2MA1XMZb3pNASjINGQS7mrCwV8hLJAGeukeGDw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEmjCCAoICATowDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkJNMQswCQYDVQQIEwJITTER
+MA8GA1UEBxMISGFtaWx0b24xHDAaBgNVBAoTE1NXc29mdCBIb2xkaW5ncyBMdGQxHTAbBgNVBAsT
+FEludGVybmFsIERldmVsb3BtZW50MRwwGgYDVQQDExNLQSByb290IGNlcnRpZmljYXRlMRwwGgYJ
+KoZIhvcNAQkBFg1rYUBzd3NvZnQuY29tMB4XDTE2MDgzMTExMDUxOFoXDTQ0MDExNzExMDUxOFow
+fzELMAkGA1UEBhMCQk0xCzAJBgNVBAgMAkhNMREwDwYDVQQHDAhIYW1pbHRvbjEcMBoGA1UECgwT
+U1dzb2Z0IEhvbGRpbmdzIEx0ZDEdMBsGA1UECwwUSW50ZXJuYWwgRGV2ZWxvcG1lbnQxEzARBgNV
+BAMMCmV4dC1kb2NrZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCbdJZMYvW0VZk2
+G+ZzpFNXq4mZUh6Von2rEmKINubKbCzqPyPepSfH00PaRQqIORLBjxQDoyYY9qKJ9fqQ2r7ankjQ
+cyfHNdGt7uibNBRcHG7iQMb3xPi85ICE/C/wyGSqcRzpw0TwVVTxUMykUAnbsREA/BCaqAAlS2Ya
+eTn/Qc01kN5V9cAjmQyLd/dw8d0VXQBUJoQz2TSg8SKnL5cAz1+Jkvegb2OKgkUi4Bms0PSGkzTk
+7yqbw0yCuwQW9C7MbGtboT1WLrvofj/sKReZND9axk2jCdoAEDyGI5fwvT/snX0WDK8lWGXw8CYg
+6oZC405YDlNHB3gJSa+iqIFDAgMBAAEwDQYJKoZIhvcNAQEFBQADggIBAGSp6mWUJcruFFRqg7VE
+AqLbu6Js9LpnGGWlA+z9q6OTWba0Fq4dovfNwxZfC7FJYzoTzZJXv1IGhhgAGLE9PbwNuAJY6txz
+O9XBi9QaXw/irxVxvl7QL7HhPs9vrFzlb7qEU1/2kkPZO/iLEBV+vd5B0HR6TsF1sDIN/CIsNSC5
+EOCF/gxJkGeEQnjhSjYou2BMObkC3++KFPoU8BaJuKZCNiWyH6GpYcKzOWMJWdOkOvdunGkXHJUq
+9bpJ6D7MYgq0DOcYg64Lu3Bxuiz2vXoPB2FotRMT5FTCiw9ip/5OzHG5W3nWc+rG5iRqricDAWbx
+HZl8U4XxVzmCufJaeZDldNnDDBvGSeO1aCQLd+eNyvp7/7GDUOUq4CVaYJsgn4v/N5+XvtFwOAOz
+QLi6xXQ3JXLOrwbnqFDHoCd9P7/ehP9Tq0V9WHJ81EApXfO6uCJob9GBvAPEepfrn+iNuaoJo0gs
+wsxJPv6Pf4LPuG3SS7CdMp2wDBypyK54pAxkKdVomfirgKUOncR+PnpLTH34baCuHLeZN5injIoF
+mTxXhtZh2iiR2Mjlx4ZyoLzXtukQ5LFcLPIoelwQNCEX7rRcD2ePiL3TQ791vAaP9nzWcf8E9Wm0
+I3SXH9GSBNZhq1cb6t51IxttgCNzKBpcB2yptGFxbzzeCD3o2saeSo5I
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</aps-3:key>
